@@ -1,0 +1,16 @@
+.readings__card {
+    background-color: #B7C09D;
+    height: 300px;
+    width: 240px;
+    margin-bottom: 17px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 425px) {
+    .readings__card {
+        height: 341px;
+        width: 244px;
+        margin-bottom: 24px;
+    }
+}
