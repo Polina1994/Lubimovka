@@ -18,6 +18,10 @@
 @import url(../blocks/play/__data/play__data.css);
 @import url(../blocks/play/__data-position/play__data-position.css);
 @import url(../blocks/play/__data-name/play__data-name.css);
+@import url(../blocks/play/__video/play__video.css);
+@import url(../blocks/play/__text/play__text.css);
+@import url(../blocks/play/__paragraph/play__paragraph.css);
+@import url(../blocks/play/__paragraph/_decorated/play__paragraph_decorated_red-line.css);
 @import url(../blocks/readings/readings.css);
 @import url(../blocks/photo-gallery/photo-gallery.css);
 @import url(../blocks/press-reviews//press-reviews.css);

@@ -1,0 +1,6 @@
+.play__video {
+    display: block;
+    min-width: 690px;
+    min-height: 389px;
+    border: none;
+}

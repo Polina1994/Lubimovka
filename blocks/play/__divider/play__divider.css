@@ -1,5 +1,5 @@
 .play__divider {
     min-width: 1px;
-    min-height: 32px;
+    max-height: 32px;
     background-color: black;
 }
