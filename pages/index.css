@@ -1,6 +1,5 @@
 @import url(../vendor/fonts.css);
 @import url(../vendor/normalize.css);
-@import url(../blocks/root/root.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/menu/menu.css);
@@ -14,22 +13,6 @@
 @import url(../blocks/press-reviews//press-reviews.css);
 @import url(../blocks/audience-reviews/audience-reviews.css);
 @import url(../blocks/share/share.css);
-@import url(../blocks/readings/__author/readings__author.css);
-@import url(../blocks/readings/__button/readings__button.css);
-@import url(../blocks/readings/__card/readings__card.css);
-@import url(../blocks/readings/__info/readings__info.css);
-@import url(../blocks/readings/__title/readings__title.css);
-@import url(../blocks/photo-gallery/photo-gallery.css);
-@import url(../blocks/photo-gallery/__title/photo-gallerey__title.css);
-@import url(../blocks/photo-gallery/__block/photo-gallerey__block.css);
-@import url(../blocks/photo-gallery/__item/photo-gallerey__item.css);
-@import url(../blocks/photo-gallery/__title/photo-gallerey__title.css);
-@import url(../blocks/press-reviews//press-reviews.css);
-@import url(../blocks/audience-reviews/audience-reviews.css);
-@import url(../blocks/share/share.css);
-@import url(../blocks/share/__temp/share__temp.css);
-@import url(../blocks/share/__photo/share__photo.css);
-@import url(../blocks/share/__text/share__text.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/logo-with-text/);
 @import url(../blocks/partners/partners.css);
@@ -39,7 +22,6 @@
 @import url(../blocks/footer/__additional-info/footer__additional-info.css);
 @import url(../blocks/footer/__copyright/);
 @import url(../blocks/footer/__privacy/footer__privacy.css);
-@import url(../blocks/footer/__credits/footer__credits.css);
 @import url(../blocks/footer/__credits/footer__credits.css);
 
 @import url(../blocks/button/button.css);
@@ -54,5 +36,3 @@
 @import url(../blocks/button/_anim-down/_no-border/button_anim-down_no-border.css);
 @import url(../blocks/button/_anim-left/button__normal_anim-left.css);
 @import url(../blocks/button/_anim-right/button_anim-right.css);
-
-
