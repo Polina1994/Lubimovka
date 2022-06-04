@@ -1,6 +1,12 @@
 .play {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: #ECEBE8; /*потом удалить*/
     margin-bottom: 80px;
+}
+
+@media screen and (max-width: 415px) {
+    .play {
+        display: flex;
+        flex-direction: column;
+    }
 }

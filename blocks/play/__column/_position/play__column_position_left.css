@@ -2,3 +2,11 @@
     padding-left: 184px;
     gap: 20px;
 }
+
+@media screen and (max-width: 415px) {
+    .play__column_position_left {
+        padding-bottom: 50px;
+        padding-left: 25px;
+    }
+    
+}
