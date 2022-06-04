@@ -1,6 +1,6 @@
 .play {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: #ECEBE8;
+    background-color: #ECEBE8; /*потом удалить*/
     margin-bottom: 80px;
 }

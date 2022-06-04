@@ -1,0 +1,10 @@
+.play__data-name {
+    margin: 0;
+    padding-bottom: 24px;
+    padding-left: 28px;
+    font-family: 'Formular';
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: -0.01em;
+    color: #242424;
+}
