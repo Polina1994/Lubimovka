@@ -1,0 +1,17 @@
+.readings__title {
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #242424;
+    padding: 24px 31px 139px 24px;
+    margin: 0;
+}
+
+@media screen and (max-width: 425px) {
+    .readings__title {
+        padding: 24px 35px 181px 24px;
+    }
+}
