@@ -7,7 +7,7 @@
 @import url(/blocks/social/social.css);
 @import url(/blocks/donation/donation.css);
 @import url(/blocks/hero/hero.css);
-@import url(/blocks/play/play.css);
+@import url(../blocks/play/play.css);
 @import url(/blocks/readings/readings.css);
 @import url(/blocks/photo-gallery/photo-gallery.css);
 @import url(/blocks/press-reviews//press-reviews.css);

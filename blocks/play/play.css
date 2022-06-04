@@ -1,3 +1,6 @@
 .play {
-  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #ECEBE8;
+    margin-bottom: 80px;
 }
