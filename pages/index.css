@@ -10,6 +10,10 @@
 @import url(../blocks/hero/hero.css);
 @import url(../blocks/play/play.css);
 @import url(../blocks/readings/readings.css);
+@import url(../blocks/photo-gallery/photo-gallery.css);
+@import url(../blocks/press-reviews//press-reviews.css);
+@import url(../blocks/audience-reviews/audience-reviews.css);
+@import url(../blocks/share/share.css);
 @import url(../blocks/readings/__author/readings__author.css);
 @import url(../blocks/readings/__button/readings__button.css);
 @import url(../blocks/readings/__card/readings__card.css);
@@ -36,3 +40,19 @@
 @import url(../blocks/footer/__copyright/);
 @import url(../blocks/footer/__privacy/footer__privacy.css);
 @import url(../blocks/footer/__credits/footer__credits.css);
+@import url(../blocks/footer/__credits/footer__credits.css);
+
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/__big/button__big.css);
+@import url(../blocks/button/__normal/button__normal.css);
+@import url(../blocks/button/__normal/_large/button__normal_large.css);
+@import url(../blocks/button/__normal/_middle-big/button__normal_middle-big.css);
+@import url(../blocks/button/__normal/_middle/button__normal_middle.css);
+@import url(../blocks/button/__normal/_small/button__normal_small.css);
+@import url(../blocks/button/_anim-diagonal/button_anim-diagonal.css);
+@import url(../blocks/button/_anim-down/button_anim-down.css);
+@import url(../blocks/button/_anim-down/_no-border/button_anim-down_no-border.css);
+@import url(../blocks/button/_anim-left/button__normal_anim-left.css);
+@import url(../blocks/button/_anim-right/button_anim-right.css);
+
+
