@@ -1,0 +1,9 @@
+.audience-review {
+  background-color: #fff;
+  min-width: 420px;
+  width: 420px;
+  min-height: 361px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
