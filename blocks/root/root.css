@@ -4,9 +4,8 @@
     --white: #FFF;
     --black: #000;
     --green: #B7C09D;
-
 }
+
 .root {
     background-color: var(--grey-background);
-  
 }
