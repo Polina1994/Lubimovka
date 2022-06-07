@@ -1,6 +1,11 @@
 .hero {
-  margin-bottom: 68px;
+  margin: 0 0 68px 0;
   padding-left: 120px;
+  box-sizing: content-box;
   display: flex;
   flex-wrap: wrap;
+  background: #eceBe8;
+  font-family: 'Neue Machina';
+  font-style: normal;
+  font-weight: 400;
 }
