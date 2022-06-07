@@ -8,6 +8,10 @@
 @import url(../blocks/social/social.css);
 @import url(../blocks/donation/donation.css);
 @import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__navigation/hero__navigation.css);
+@import url(../blocks/hero/__column/hero__column.css);
+@import url(../blocks/hero/__column/_position/hero__column_position_left.css);
+@import url(../blocks/hero/__column/_position/hero__column_position_right.css);
 @import url(../blocks/play/play.css);
 @import url(../blocks/play/__column/play__column.css);
 @import url(../blocks/play/__column/_position/play__column_position_left.css);

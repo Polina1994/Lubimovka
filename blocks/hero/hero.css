@@ -1,3 +1,4 @@
 .hero {
-  
+  display: flex;
+  flex-wrap: wrap;
 }
