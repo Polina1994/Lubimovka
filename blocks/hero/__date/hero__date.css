@@ -1,0 +1,13 @@
+.hero__date {
+  display:block;
+  margin: 0 0 16px 124px;
+  padding: 0;
+  width: 420px;
+  font-family: 'Neue Machina';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  color: #242424;
+}
