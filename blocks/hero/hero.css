@@ -1,6 +1,5 @@
 .hero {
-  max-width: 1440px;
-  width: 1440px;
+  max-width: 1440px;  
   margin: 0 auto 68px auto; 
   display: flex;
   flex-wrap: wrap;
