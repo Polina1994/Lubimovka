@@ -1,0 +1,12 @@
+.hero__project-description {
+  margin: 0;
+  padding: 0;
+  width: 591px;
+  font-family: 'Neue Machina';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  color: #242424;
+}

@@ -15,6 +15,8 @@
 @import url(../blocks/hero/__title/hero__title.css);
 @import url(../blocks/hero/__subtitle/hero__subtitle.css);
 @import url(../blocks/hero/__date/hero__date.css);
+@import url(../blocks/hero/__image/hero__image.css);
+@import url(../blocks/hero/__project-description/hero__project-description.css);
 @import url(../blocks/play/play.css);
 @import url(../blocks/play/__column/play__column.css);
 @import url(../blocks/play/__column/_position/play__column_position_left.css);
