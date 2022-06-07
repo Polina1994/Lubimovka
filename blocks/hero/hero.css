@@ -1,5 +1,6 @@
 .hero {
   margin-bottom: 68px;
+  padding-left: 120px;
   display: flex;
   flex-wrap: wrap;
 }
