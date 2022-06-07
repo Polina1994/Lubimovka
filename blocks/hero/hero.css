@@ -1,7 +1,7 @@
 .hero {
-  margin: 0 0 68px 0;
-  padding-left: 120px;
-  box-sizing: content-box;
+  max-width: 1440px;
+  width: 1440px;
+  margin: 0 auto 68px auto; 
   display: flex;
   flex-wrap: wrap;
   background: #eceBe8; /*временно. пока не появится BG страницы*/
