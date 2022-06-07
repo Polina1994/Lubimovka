@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="./index.css">
     <title>Lubimovka</title>
 </head>
 <body class="root">
@@ -76,23 +76,62 @@
   </main>
 
   <footer class="footer">
-    <img class="logo-with-text" src="" alt=""><!--лого - блок, можно использовать в других местах-->
-    <ul class="partners"> <!--список партнеров - блок, можно использовать в других местах-->
+    <div class="footer__partners">
+      <img class="logo-with-text" src="./images/footer-logo.svg" alt="логотип"><!--лого - блок, можно использовать в других местах-->
 
-    </ul>
-    <div class="address"></div><!--адрес - блок, можно использовать в других местах-->
-    <nav class="menu-extra"><!--расширенное меню - блок, можно использовать в других местах-->
-      <ul class="menu-extra__links">
-
+      <ul class="partners"> <!--список партнеров - блок, можно использовать в других местах-->
+          <li class="partners__list"><p class="partners__list_title">Генеральные партнеры</p></li>
+          <li class="partners__list"><img src="./images/fond-logo.png" class="partners__list_image"></li>
+          <li class="partners__list"><img src="./images/mosbrew-logo.png" class="partners__list_image"></li>
+          <li class="partners__list"><img src="./images/sbtg-logo.png" class="partners__list_image"></li>
+          <li class="partners__list"><img src="./images/pogovorit-logo.png" class="partners__list_image"></li>
       </ul>
-    </nav>
+    </div>
+
+    <div class="footer__about">
+      <div class="address">
+        <h2 class="address__title">Площадка «8/3»</h2>
+        <p class="address__description">Москва,<br>ул. Казакова, 8, стр. 3 Метро «Курская»</p>
+      </div><!--адрес - блок, можно использовать в других местах-->
+
+      <nav class="menu-extra"><!--расширенное меню - блок, можно использовать в других местах-->
+        <ul class="menu-extra__links">
+            <li class="menu-extra__text">Любимовка</li>
+            <li class="menu-extra__text">Афиша</li>
+            <li class="menu-extra__text">Библиотека</li>
+            <li class="menu-extra__text">Блог</li>
+            <li class="menu-extra__text">Новости</li>
+        </ul>
+        <ul class="menu-extra__about">
+            <li class="menu-extra__text">О фестивале</li>
+            <li class="menu-extra__text">Организаторы</li>
+            <li class="menu-extra__text">История</li>
+            <li class="menu-extra__text">Контакты</li>
+            <li class="menu-extra__text">Для прессы</li>
+        </ul>
+        <ul class="menu-extra__project">
+            <li class="menu-extra__text">Все проекты</li>
+            <li class="menu-extra__text">Любимовка.Ещё</li>
+            <li class="menu-extra__text">Спектакли</li>
+            <li class="menu-extra__text">Сборник Любимовка</li>
+            <li class="menu-extra__text">Lark+Любимовка</li>
+            <li class="menu-extra__text">Практика постдраматурга</li>
+            <li class="menu-extra__text">Эхо Любимовки</li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="footer-info">
     <div class="footer__additional-info">
-      <p class="footer__copyright"></p>      
-      <a class="footer__privacy" href="#" target="blank"></a> <!--Политика конфиденциальности
+      <p class="footer__copyright">&copy; Любимовка, 2021</p>      
+      <a class="footer__privacy" href="#" target="blank">Политика конфиденциальности</a> <!--Политика конфиденциальности
         либо ссылка на отдельную страницу, либо кнопка для открытия попапа-->      
     </div>
     <div class="footer__credits">
-      
+        <img src="./images/footer-icon.svg" class="footer__credits_icon">
+        <p class="footer__credits_design">дизайн сайта — shishki.collective</p>
+        <p class="footer__credits_team">вёрстка и разработака — студенты Яндекс.Практикума</p>
+    </div>
     </div>
   </footer>
   
