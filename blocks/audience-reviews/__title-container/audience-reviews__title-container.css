@@ -1,7 +1,7 @@
 .audience-reviews__title-container {
-  max-width: 718px;
+  width: 718px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 auto 55px;
+  margin: 0 0 55px 0;
 }
