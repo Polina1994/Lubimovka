@@ -1,0 +1,11 @@
+.menu__btn-donation {
+  background-image: url(../../../images/ui/header-plus.svg);
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  border: none;
+  border-left: 1px solid black;
+  width: 127px;
+  height: 50px;
+  background-color: transparent;
+  grid-column: 3;
+}

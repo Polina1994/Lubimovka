@@ -1,3 +1,7 @@
 .logo {
-  
+  display: block;
+  height: 35px;
+  width: 43px;
+  background-image: url(../../images/logo/header-heart.svg);
+  background-repeat: no-repeat;
 }
