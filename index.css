@@ -1,0 +1,139 @@
+/* .footer {
+    margin: 0;
+    padding: 0;
+} */
+/* .footer__partners {
+    display: flex;
+    flex-direction: row;
+} */
+/* .logo-with-text {
+    width: 93px;
+    height: 80px;
+    margin-left: 32px;
+    margin-top: 42px;
+} */
+/* .partners {
+    display: flex;
+    flex-direction: row;
+    margin-top: 48px;
+    margin-left: 82px;
+    padding: 0;
+} */
+/* .partners__list {
+    list-style-type: none;
+    display: flex;
+    margin-right: 31px;
+} */
+/* .partners__list_title {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    width: 100px;
+}
+.partners__list_image {
+   object-fit: contain;
+} */
+/* .footer__about {
+    display: flex;
+    flex-direction: row;
+} */
+/* .address {
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+    width: 231px;
+    margin-left: 210px;
+} */
+/* .address__title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+} */
+/* .address__description {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    width: 60%;
+} */
+/* .menu-extra {
+    display: flex;
+    margin-top: 22px;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 115px;
+} */
+/* .menu-extra__links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+} */
+/* .menu-extra__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 15px;
+} */
+/* .menu-extra__about {
+    list-style-type: none;
+    margin-left: 100px;
+    margin-top: 0;
+    padding: 0;
+} */
+/* .menu-extra__project {
+    list-style-type: none;
+    margin-left: 100px;
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 0;
+} */
+/* .footer__info {
+    margin-bottom: 73px;
+    margin-top: 49px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+} */
+/* .footer__additional-info {
+    display: flex;
+    flex-direction: row;
+    margin-left: 207px;
+    padding: 0;
+} */
+/* .footer__copyright {
+    margin: 0;
+    margin-right: 32px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+} */
+/* .footer__privacy {
+    text-decoration: none;
+    color: #242424;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+} */
+/* .footer__credits {
+    display: flex;
+    flex-direction: row;
+} */
+/* .footer__credits_icon {
+    object-fit: contain;
+    width: 27px;
+    height: 27px;
+    margin-right: 4px;
+} */
+/* .footer__credits_design {
+    margin-right: 40px;
+    margin-top: 0;
+    width: min-content;
+    margin-bottom: 0;
+}
+.footer__credits_team {
+    margin-top: 0;
+    margin-right: 92px;
+    width: 207px;
+    margin-bottom: 0;
+} */
