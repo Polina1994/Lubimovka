@@ -1,6 +1,5 @@
 .hero__column {
   width: 50%;
-  outline:1px solid red;
 }
 
 @media screen and (max-width: 799px) {
