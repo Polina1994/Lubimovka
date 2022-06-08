@@ -1,4 +1,6 @@
 .footer__about {
     display: flex;
     flex-direction: row;
+    margin: 0;
+    padding: 0;
 }
