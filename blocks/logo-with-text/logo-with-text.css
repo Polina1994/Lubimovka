@@ -1,6 +1,7 @@
 .logo-with-text {
     width: 93px;
     height: 80px;
+<<<<<<< Updated upstream
     margin-left: 32px;
     margin-top: 42px;
 }
@@ -9,4 +10,8 @@
         margin-left: 58px;
         margin-top: 56px;
     }
+=======
+    margin-left: 51px;
+    margin-top: 62px;
+>>>>>>> Stashed changes
 }
