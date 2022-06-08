@@ -1,7 +1,6 @@
-.footer__copyright {
-    margin-top: 0;
+.address__description {
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
-    margin-right: 32px;
+    margin: 0;
 }
