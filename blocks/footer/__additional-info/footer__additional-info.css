@@ -1,3 +1,6 @@
 .footer__additional-info {
-  
+    display: flex;
+    flex-direction: row;
+    margin-left: 207px;
+    padding: 0;
 }

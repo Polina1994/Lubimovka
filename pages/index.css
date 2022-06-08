@@ -56,17 +56,38 @@
 @import url(../blocks/share/__temp/share__temp.css);
 @import url(../blocks/share/__photo/share__photo.css);
 @import url(../blocks/share/__text/share__text.css);
+
+
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/logo-with-text/);
+@import url(../blocks/footer/__additional-info/footer__additional-info.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__info/footer__info.css);
+@import url(../blocks/footer/__privacy/footer__privacy.css);
+@import url(../blocks/footer/__about/footer__about.css);
+@import url(../blocks/footer/__credits/footer__credits.css);
+@import url(../blocks/footer/__credits/_design/footer__credits_design.css);
+@import url(../blocks/footer/__credits/_icon/footer__credits_icon.css);
+@import url(../blocks/footer/__credits/_team/footer__credits_team.css);
+@import url(../blocks/footer/__partners/footer__partners.css);
+
+@import url(../blocks/logo-with-text/logo-with-text.css);
+
 @import url(../blocks/partners/partners.css);
+@import url(../blocks/partners/__list/partners__list.css);
+@import url(../blocks/partners/__list/_image/partners__list_image.css);
+@import url(../blocks/partners/__list/_title/partners__list_title.css);
+
 @import url(../blocks/address/address.css);
+@import url(../blocks/address/__title/address__title.css);
+@import url(../blocks/address/__description/address__description.css);
+
 @import url(../blocks/menu-extra/menu-extra.css);
 @import url(../blocks/menu-extra/__links/menu-extra__links.css);
-@import url(../blocks/footer/__additional-info/footer__additional-info.css);
-@import url(../blocks/footer/__copyright/);
-@import url(../blocks/footer/__privacy/footer__privacy.css);
-@import url(../blocks/footer/__credits/footer__credits.css);
-@import url(../blocks/footer/__credits/footer__credits.css);
+@import url(../blocks/menu-extra/__about/menu-extra__about.css);
+@import url(../blocks/menu-extra/__project/menu-extra__project.css);
+@import url(../blocks/menu-extra/__text/menu-extra__text.css);
+
+
 
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/__big/button__big.css);

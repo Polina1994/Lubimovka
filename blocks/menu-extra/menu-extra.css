@@ -1,3 +1,7 @@
 .menu-extra {
-  
+    display: flex;
+    margin-top: 22px;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 115px;
 }
