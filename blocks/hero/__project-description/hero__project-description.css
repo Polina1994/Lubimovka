@@ -3,8 +3,8 @@
   padding: 0;
   max-width: 591px;
   width: 82.1%;
-  font-size: calc(20px + 8 * (100vw - 800px) / 640);
-  line-height: calc(24px + 8 * (100vw - 800px) / 640);
+  font-size: min(20px + 8 * (100vw - 800px) / 640, 28px);
+  line-height: min(24px + 8 * (100vw - 800px) / 640, 32px);
   letter-spacing: -0.01em;
   color: #242424;
 }

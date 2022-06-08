@@ -6,11 +6,11 @@
 
 @media screen and (max-width: 799px) {
   .hero__navigation {
-    margin-bottom: 30px;    
+    margin-bottom: 76px;    
     padding-left: 0;
     width: auto;
     position: relative;
-    top:-48.11px;
-    left: 85px;/*20.5%*/ 
+    top:22px;
+    left: 81px;/*20.5%*/ 
   }
 }

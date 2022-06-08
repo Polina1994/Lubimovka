@@ -1,15 +1,15 @@
 .hero__title {
   margin: 52px 0 44px 0;
-  font-size: calc(42px + 32 * (100vw - 800px) / 640);
-  line-height: calc(40px + 30 * (100vw - 800px) / 640);
+  font-size: min(40px + 32 * (100vw - 800px) / 640, 72px);
+  line-height: min(40px + 30 * (100vw - 800px) / 640,70px);
   letter-spacing: -0.01em;
   color: #242424;
 }
 
 @media screen and (max-width: 414px) {
   .hero__title {
-    margin: 0 0 16px -14.7%;
-    font-size: calc(32px + 8 * (100vw - 320px) / 94);
+    margin: 0 0 17px -18%;
+    font-size: calc(32px + 7 * (100vw - 320px) / 94);
     line-height: 1;
   }
 }
