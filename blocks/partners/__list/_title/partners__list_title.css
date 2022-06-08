@@ -1,7 +1,6 @@
-.footer__copyright {
-    margin: 0;
-    margin-right: 32px;
+.partners__list_title {
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
+    width: 100px;
 }
