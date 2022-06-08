@@ -1,0 +1,11 @@
+.readings__author {
+    margin: 0;
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #242424;
+    max-width: 100px;
+}

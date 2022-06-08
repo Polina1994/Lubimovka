@@ -1,0 +1,11 @@
+.play__text {
+    display: flex;
+    flex-direction: column;
+    max-width: 88%;
+}
+
+@media screen and (max-width: 415px){
+    .play__text {
+        max-width: none;
+    }
+}
