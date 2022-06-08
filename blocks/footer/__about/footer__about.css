@@ -1,0 +1,4 @@
+.footer__about {
+    display: flex;
+    flex-direction: row;
+}
