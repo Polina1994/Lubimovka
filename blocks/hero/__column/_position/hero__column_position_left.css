@@ -1,4 +1,11 @@
 .hero__column_position_left {
-  padding-left: 120px;
+  padding-left: 8.3%;/*120px, 8.3%*/
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 799px) {
+  .hero__column_position_left {
+    padding-left: 20.5%;/*85px, 20.5%*/
+    padding-bottom: 38px;
+  }
 }

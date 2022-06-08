@@ -1,6 +1,12 @@
 .hero__image {
   margin: 0 0 42px 0;
-  width: 720px;
-  height: 614px;
+  width: 100%;  
   object-fit: contain;
+}
+
+@media screen and (max-width: 799px) {
+  .hero__image {
+    margin: 0 0 56px 0;       
+    object-fit: cover;
+  }
 }
