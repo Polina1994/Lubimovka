@@ -1,7 +1,7 @@
 .address {
-    margin-top: 22px;
+    margin-top: 3px;
     display: flex;
     flex-direction: column;
-    width: 231px;
-    margin-left: 210px;
+    align-items: flex-start;
+    margin-left: 230px;
 }
