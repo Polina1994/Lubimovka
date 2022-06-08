@@ -65,6 +65,7 @@
 @import url(../blocks/slider-navigation/__dot/_active/slider-navigation__dot_active.css);
 @import url(../blocks/slider-navigation/__buttons/slider-navigation__buttons.css);
 
+@import url(../blocks/audience-reviews/audience-reviews.css);
 @import url(../blocks/share/share.css);
 @import url(../blocks/share/__temp/share__temp.css);
 @import url(../blocks/share/__btn-container/share__btn-container.css);
