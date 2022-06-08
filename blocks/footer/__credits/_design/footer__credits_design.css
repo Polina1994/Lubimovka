@@ -1,6 +1,11 @@
 .footer__credits_design {
-    margin-right: 40px;
-    margin-top: 0;
+    margin-right: 41px;
+    margin-top: 2px;
     width: min-content;
     margin-bottom: 0;
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
 }
