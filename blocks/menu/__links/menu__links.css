@@ -1,7 +1,9 @@
 .menu__links {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   list-style: none;
   display: flex;
+  align-items: center;
   gap: 44px;
+  height: 100%;
 }

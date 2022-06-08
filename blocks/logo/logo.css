@@ -1,7 +1,8 @@
 .logo {
-  display: block;
+  margin: 0;
+  padding: 0;
   height: 35px;
   width: 43px;
-  background-image: url(../../images/logo/header-heart.svg);
-  background-repeat: no-repeat;
+  grid-column: 1;
+  align-self: center;
 }
