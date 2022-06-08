@@ -1,7 +1,7 @@
 .footer__copyright {
-    margin: 0;
-    margin-right: 32px;
+    margin-top: 0;
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
+    margin-right: 32px;
 }
