@@ -23,8 +23,27 @@
 
   <main>
     <section class="hero">
-      <button > Проекты</button>
-      <h1 class="hero__title">С_училища</h1>
+      <nav class="hero__navigation">
+        <button class="button__normal button__normal_middle button_anim-right">
+          ПРОЕКТЫ
+          <img src="./images/ui/arrow-left.svg" alt="" class="icon-button">
+        </button>  
+      </nav>
+      <div class="hero__column hero__column_position_left">
+        <h1 class="hero__title">С_училища</h1>
+        <p class="hero__subtitle">Пьеса о демоническом обаянии студентки ПТУ и ее роковой роли в жизни преподавателя философии.</p>
+        <span class="hero__date">12 мая 20:00</span>
+        <button class="button__big button_anim-left">
+          БИЛЕТЫ
+          <img src="./images/ui/arrow-right.svg" alt="" class="icon-button">
+        </button>
+      </div>
+      <div class="hero__column">
+        <img class="hero__image" src="images/content/afisha.png" alt="Сцена из спектакля: Женщина под черной вуалью на переднем плане, позади две расплывчатые фигуры.">
+        <article class="hero__project-description">Семён Серзин сделал читку этой пьесы&nbsp;в рамках основной программы Любимовки-2017, 
+          Варочный Цех предоставил грант на&nbsp;постановку,&nbsp;а Московский драматический театр имени А.С. Пушкина принял спектакль в&nbsp;репертуар.
+        </article>
+      </div>
     </section>
 
       <section class="play">
@@ -122,7 +141,7 @@
     </section>
 
     <section class="share">
-      <div class="share__temp"><!-- временный div для выравнивания -->
+      <div class="share__temp"><!-- временный div для выравнивания--> 
       <img class="share__photo" src="./images/content/share__photo.png" alt="Черно-белая фотография на театральной сцене">
       <!-- место под кнопки -->
       <p class="share__text">Рассказать о&nbsp;спектакле&nbsp;в&nbsp;соцсетях</p>
@@ -204,7 +223,7 @@
   <button class="button-menu">
     <i class="button-menu__icon"></i>
   </button>
-  
+
   <script src="script/index.js"></script>
 </body>
 </html>
