@@ -1,6 +1,11 @@
 .footer__credits_team {
     margin-top: 0;
-    margin-right: 92px;
+    margin-right: 72px;
     width: 207px;
     margin-bottom: 0;
+    font-family: 'Formular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
 }
