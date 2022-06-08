@@ -1,6 +1,6 @@
-.footer__additional-info {
+.footer__about {
     display: flex;
     flex-direction: row;
-    margin-left: 228px;
+    margin: 0;
     padding: 0;
 }
