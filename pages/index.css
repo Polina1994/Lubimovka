@@ -9,19 +9,6 @@
 @import url(../blocks/donation/donation.css);
 @import url(../blocks/hero/hero.css);
 @import url(../blocks/play/play.css);
-@import url(../blocks/play/__column/play__column.css);
-@import url(../blocks/play/__column/_position/play__column_position_left.css);
-@import url(../blocks/play/__column/_position/play__column_position_right.css);
-@import url(../blocks/play/__info/play__info.css);
-@import url(../blocks/play/__info-text/play__info-text.css);
-@import url(../blocks/play/__divider/play__divider.css);
-@import url(../blocks/play/__data/play__data.css);
-@import url(../blocks/play/__data-position/play__data-position.css);
-@import url(../blocks/play/__data-name/play__data-name.css);
-@import url(../blocks/play/__video/play__video.css);
-@import url(../blocks/play/__text/play__text.css);
-@import url(../blocks/play/__paragraph/play__paragraph.css);
-@import url(../blocks/play/__paragraph/_decorated/play__paragraph_decorated_red-line.css);
 @import url(../blocks/readings/readings.css);
 @import url(../blocks/photo-gallery/photo-gallery.css);
 @import url(../blocks/press-reviews//press-reviews.css);
@@ -38,20 +25,7 @@
 @import url(../blocks/photo-gallery/__item/photo-gallerey__item.css);
 @import url(../blocks/photo-gallery/__title/photo-gallerey__title.css);
 @import url(../blocks/press-reviews//press-reviews.css);
-
 @import url(../blocks/audience-reviews/audience-reviews.css);
-@import url(../blocks/audience-reviews/__title-container/audience-reviews__title-container.css);
-@import url(../blocks/audience-reviews/__title/audience-reviews__title.css);
-@import url(../blocks/audience-reviews/__container/audience-reviews__container.css);
-@import url(../blocks/audience-review/audience-review.css);
-@import url(../blocks/audience-review/__text/audience-review__text.css);
-@import url(../blocks/audience-review/__author/audience-review__author.css);
-@import url(../blocks/slider-navigation/slider-navigation.css);
-@import url(../blocks/slider-navigation/__dots/slider-navigation__dots.css);
-@import url(../blocks/slider-navigation/__dot/slider-navigation__dot.css);
-@import url(../blocks/slider-navigation/__dot/_active/slider-navigation__dot_active.css);
-@import url(../blocks/slider-navigation/__buttons/slider-navigation__buttons.css);
-
 @import url(../blocks/share/share.css);
 @import url(../blocks/share/__temp/share__temp.css);
 @import url(../blocks/share/__photo/share__photo.css);
@@ -80,3 +54,5 @@
 @import url(../blocks/button/_anim-down/_no-border/button_anim-down_no-border.css);
 @import url(../blocks/button/_anim-left/button__normal_anim-left.css);
 @import url(../blocks/button/_anim-right/button_anim-right.css);
+
+
