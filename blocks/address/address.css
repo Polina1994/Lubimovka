@@ -1,3 +1,7 @@
 .address {
-  
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+    width: 231px;
+    margin-left: 210px;
 }
