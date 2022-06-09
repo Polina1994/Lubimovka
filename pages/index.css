@@ -47,11 +47,18 @@
 @import url(../blocks/photo-gallery/__block/photo-gallerey__block.css);
 @import url(../blocks/photo-gallery/__item/photo-gallerey__item.css);
 @import url(../blocks/photo-gallery/__title/photo-gallerey__title.css);
+
 @import url(../blocks/press-reviews//press-reviews.css);
+@import url(../blocks/press-reviews/__container/press-reviews__container.css);
+@import url(../blocks/press-review/press-review.css);
+@import url(../blocks/press-review/_inactive/press-review_inactive.css);
+@import url(../blocks/press-review/__logo/press-review__logo.css);
+@import url(../blocks/press-review/__text/press-review__text.css);
+@import url(../blocks/press-review/__button/press-review__button.css);
 
 @import url(../blocks/audience-reviews/audience-reviews.css);
-@import url(../blocks/audience-reviews/__title-container/audience-reviews__title-container.css);
-@import url(../blocks/audience-reviews/__title/audience-reviews__title.css);
+@import url(../blocks/slider-container/slider-container.css);
+@import url(../blocks/slider-container/__title/slider-container__title.css);
 @import url(../blocks/audience-reviews/__container/audience-reviews__container.css);
 @import url(../blocks/audience-review/audience-review.css);
 @import url(../blocks/audience-review/__text/audience-review__text.css);
