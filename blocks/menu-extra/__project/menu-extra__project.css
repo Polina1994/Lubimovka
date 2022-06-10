@@ -5,3 +5,10 @@
     padding: 0;
     margin-bottom: 0;
 }
+@media all and (min-width: 320px) and (max-width: 768px) {
+    .menu-extra__project {
+        display: grid;
+        grid-area: project;
+        border: 1px solid yellow;
+    }
+}
