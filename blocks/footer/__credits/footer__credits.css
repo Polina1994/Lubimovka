@@ -4,7 +4,9 @@
 }
 @media all and (min-width: 320px) and (max-width: 768px) {
     .footer__credits {
-        display: grid;
-        grid-area: credits;
+       margin-top: 60px;
+       margin-left: 7%;
+       margin-bottom: 74px;
+       flex-direction: column;
     }
 }
