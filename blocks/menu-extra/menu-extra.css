@@ -4,4 +4,14 @@
     justify-content: flex-end;
     width: 100%;
     margin-right: 95px;
+    border: 1px solid red;
+}
+@media all and (min-width: 320px) and (max-width: 768px) {
+    .menu-extra {
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
 }
