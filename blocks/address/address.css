@@ -5,3 +5,12 @@
     align-items: flex-start;
     margin-left: 230px;
 }
+@media all and (min-width: 320px) and (max-width: 768px) {
+    .address {
+        display: grid;
+        grid-area: address;
+        margin-left: 58px;
+        margin-top: 32px;
+        padding: 0;
+    }
+}
