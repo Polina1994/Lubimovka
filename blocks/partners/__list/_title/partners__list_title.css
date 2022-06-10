@@ -3,17 +3,22 @@
     font-size: 14px;
     line-height: 17px;
     width: 100px;
-    grid-area: title;
+    list-style-type: none;
 }
 .partners__list_title_mobile {
     display: none;
 }
 @media screen and (min-width:320px) and (max-width: 768px) {
     .partners__list_title_mobile {
-        display: grid;
-        grid-area: title_mobile;
         font-weight: 300;
         font-size: 14px;
         line-height: 17px;
+        display: flex;
+        list-style-type: none;
+    }
+    .partners__list_title {
+        font-size: 14px;
+        line-height: 17px;
+        width: 160px;
     }
 }
