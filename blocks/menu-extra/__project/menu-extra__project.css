@@ -7,8 +7,6 @@
 }
 @media all and (min-width: 320px) and (max-width: 768px) {
     .menu-extra__project {
-        display: grid;
-        grid-area: project;
-        border: 1px solid yellow;
+        margin: 0;
     }
 }
