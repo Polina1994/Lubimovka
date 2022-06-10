@@ -4,11 +4,10 @@
     margin-left: 51px;
     margin-top: 54px;
 }
+
 @media all and (min-width: 320px) and (max-width: 768px) {
     .logo-with-text {
-        margin-left: 58px;
+        margin-left: 15%;
         margin-top: 56px;
-        grid-area: logo;
-        display: grid;
     }
 }
