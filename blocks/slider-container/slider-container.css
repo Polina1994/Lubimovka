@@ -1,7 +1,6 @@
-.audience-reviews__title-container {
+.slider-container {
   width: 718px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 0 55px 0;
 }

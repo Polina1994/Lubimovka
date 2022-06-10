@@ -1,0 +1,26 @@
+.hero__project-description {
+  margin: 0;
+  padding: 0;
+  max-width: 591px;
+  width: 82.1%;
+  font-size: min(20px + 8 * (100vw - 800px) / 640, 28px);
+  line-height: min(24px + 8 * (100vw - 800px) / 640, 32px);
+  letter-spacing: -0.01em;
+  color: #242424;
+}
+
+@media screen and (min-width: 320px) and (max-width: 414px) {
+  .hero__project-description {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .hero__project-description {
+    margin: 0 auto;  
+    width: 88.2%;/*365px, 88.2%*/
+    font-size: 20px;
+    line-height: 24px;
+  }
+}

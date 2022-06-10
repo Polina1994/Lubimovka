@@ -10,6 +10,14 @@
 @import url(../blocks/social/social.css);
 @import url(../blocks/donation/donation.css);
 @import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__navigation/hero__navigation.css);
+@import url(../blocks/hero/__column/hero__column.css);
+@import url(../blocks/hero/__column/_position/hero__column_position_left.css);
+@import url(../blocks/hero/__title/hero__title.css);
+@import url(../blocks/hero/__subtitle/hero__subtitle.css);
+@import url(../blocks/hero/__date/hero__date.css);
+@import url(../blocks/hero/__image/hero__image.css);
+@import url(../blocks/hero/__project-description/hero__project-description.css);
 @import url(../blocks/play/play.css);
 @import url(../blocks/play/__column/play__column.css);
 @import url(../blocks/play/__column/_position/play__column_position_left.css);
@@ -39,11 +47,18 @@
 @import url(../blocks/photo-gallery/__block/photo-gallerey__block.css);
 @import url(../blocks/photo-gallery/__item/photo-gallerey__item.css);
 @import url(../blocks/photo-gallery/__title/photo-gallerey__title.css);
+
 @import url(../blocks/press-reviews//press-reviews.css);
+@import url(../blocks/press-reviews/__container/press-reviews__container.css);
+@import url(../blocks/press-review/press-review.css);
+@import url(../blocks/press-review/_inactive/press-review_inactive.css);
+@import url(../blocks/press-review/__logo/press-review__logo.css);
+@import url(../blocks/press-review/__text/press-review__text.css);
+@import url(../blocks/press-review/__button/press-review__button.css);
 
 @import url(../blocks/audience-reviews/audience-reviews.css);
-@import url(../blocks/audience-reviews/__title-container/audience-reviews__title-container.css);
-@import url(../blocks/audience-reviews/__title/audience-reviews__title.css);
+@import url(../blocks/slider-container/slider-container.css);
+@import url(../blocks/slider-container/__title/slider-container__title.css);
 @import url(../blocks/audience-reviews/__container/audience-reviews__container.css);
 @import url(../blocks/audience-review/audience-review.css);
 @import url(../blocks/audience-review/__text/audience-review__text.css);
@@ -58,38 +73,17 @@
 @import url(../blocks/share/__temp/share__temp.css);
 @import url(../blocks/share/__photo/share__photo.css);
 @import url(../blocks/share/__text/share__text.css);
-
-
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__additional-info/footer__additional-info.css);
-@import url(../blocks/footer/__copyright/footer__copyright.css);
-@import url(../blocks/footer/__info/footer__info.css);
-@import url(../blocks/footer/__privacy/footer__privacy.css);
-@import url(../blocks/footer/__about/footer__about.css);
-@import url(../blocks/footer/__credits/footer__credits.css);
-@import url(../blocks/footer/__credits/_design/footer__credits_design.css);
-@import url(../blocks/footer/__credits/_icon/footer__credits_icon.css);
-@import url(../blocks/footer/__credits/_team/footer__credits_team.css);
-@import url(../blocks/footer/__partners/footer__partners.css);
-
-@import url(../blocks/logo-with-text/logo-with-text.css);
-
+@import url(../blocks/logo-with-text/);
 @import url(../blocks/partners/partners.css);
-@import url(../blocks/partners/__list/partners__list.css);
-@import url(../blocks/partners/__list/_image/partners__list_image.css);
-@import url(../blocks/partners/__list/_title/partners__list_title.css);
-
 @import url(../blocks/address/address.css);
-@import url(../blocks/address/__title/address__title.css);
-@import url(../blocks/address/__description/address__description.css);
-
 @import url(../blocks/menu-extra/menu-extra.css);
 @import url(../blocks/menu-extra/__links/menu-extra__links.css);
-@import url(../blocks/menu-extra/__about/menu-extra__about.css);
-@import url(../blocks/menu-extra/__project/menu-extra__project.css);
-@import url(../blocks/menu-extra/__text/menu-extra__text.css);
-
-
+@import url(../blocks/footer/__additional-info/footer__additional-info.css);
+@import url(../blocks/footer/__copyright/);
+@import url(../blocks/footer/__privacy/footer__privacy.css);
+@import url(../blocks/footer/__credits/footer__credits.css);
+@import url(../blocks/footer/__credits/footer__credits.css);
 
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/__big/button__big.css);
