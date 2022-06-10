@@ -1,5 +1,7 @@
 .audience-reviews__container {
-  margin: auto;
+  list-style: none;
+  padding: 0;
+  margin: 55px 0 0;
   max-width: 1320px;
   display: grid;
   grid-template-columns: repeat(3, 420px);

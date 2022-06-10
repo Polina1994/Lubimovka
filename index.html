@@ -46,7 +46,6 @@
           </article>
         </div>
       </section>
- 
         <section class="play">
         <div class="play__column play__column_position_left">
           <div class="play__info">
@@ -103,7 +102,48 @@
       </section>
   
       <section class="press-reviews">
-  
+        <div class="slider-container">
+          <h2 class="slider-container__title">Рецензии</h2>
+          <div class="slider-navigation">
+            <div class="slider-navigation__dots">
+              <div class="slider-navigation__dot slider-navigation__dot_active"></div>
+              <div class="slider-navigation__dot"></div>
+              <div class="slider-navigation__dot"></div>
+              <div class="slider-navigation__dot"></div>
+            </div>
+            <div class="slider-navigation__buttons">
+              <button class="button__slider"></button>
+              <button class="button__slider"></button>
+          </div>
+          </div>
+        </div>
+        <ul class="press-reviews__container">
+          <li class="press-review press-review_inactive"></li>
+          <li class="press-review">
+            <img class="press-review__logo" src="./images/logo/tnyt-logo.svg" alt="">
+            <p class="press-review__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе, 
+              где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна эта работа, её муж 
+              недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает контроль 
+              над левой рукой её беспокойного Джейсона и принимается терроризировать его и всех вокруг. По мере накала страстей 
+              окружающие начинают подозревать, что рука одержима самим дьяволом, и пастор Грег предлагает прибегнуть к экзорцизму. 
+              Однако «Длань Господня» — это не ужастик, по крайней мере, природа зла тут вовсе не сверхъестественная. Чёрная комедия 
+              Аскинса о разделённой надвое душе человека ненавязчиво обнажает глубинные импульсы — сексуальные, саморазрушительные, 
+              агрессивные — которые притаились в каждом из нас».</p>
+            <div class="press-review__button">
+              <button class="button__normal button__normal_large">ЧИТАТЬ ПОЛНОСТЬЮ</button>
+            </div>  
+          </li>
+          <li class="press-review press-review_inactive">
+            <img class="press-review__logo" src="./images/logo/sobaka-logo.svg" alt="">
+            <p class="press-review__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе, 
+              где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна эта работа, её муж 
+              недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает контроль
+               над левой рукой её беспокойного Джейсона и принимается терроризировать его и всех вокруг.</p>
+            <div class="press-review__button">
+              <button class="button__normal button__normal_large">ЧИТАТЬ ПОЛНОСТЬЮ</button>
+            </div>  
+          </li>
+        </ul>
       </section>
   
       <section class="audience-reviews">
@@ -225,6 +265,24 @@
   <button class="button-menu">
     <i class="button-menu__icon"></i>
   </button>
+
+ <!-- Перейти на template элементы при разробтке на js-->
+  <!--<template id="audience-review-template">
+    <li class="audience-review">
+      <p class="audience-review__text"></p>
+      <p class="audience-review__author"></p>
+    </li>
+  </template>
+
+  <template id="press-review-template">
+    <li class="press-review">
+      <img class="press-review__logo" src="#" alt="">
+      <p class="press-review__text"></p>
+      <div class="press-review__button">
+         <button class="button__normal button__normal_large">ЧИТАТЬ ПОЛНОСТЬЮ</button>
+      </div>  
+    </li>
+  </template> -->
 
   <script src="script/index.js"></script>
 </body>
