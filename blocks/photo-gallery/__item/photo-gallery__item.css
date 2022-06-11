@@ -1,0 +1,4 @@
+.photo-gallerey__item {
+    height: clamp(120px, calc(251 / 1440 * 100vw), 251px);
+    width: clamp(175px, calc(360 / 1440 * 100vw), 360px);
+}
