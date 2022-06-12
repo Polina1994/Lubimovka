@@ -1,6 +1,7 @@
 .menu__social-links {
   margin: 0 auto;
-  padding: 0 22px 0 27px;
+  padding: 10px 24px 20px 24px;
+  width: 257px;
   list-style: none;
   grid-column: 4;
   display: grid;
