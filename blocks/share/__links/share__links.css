@@ -1,0 +1,16 @@
+.share__links {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -90px;
+  left: 584px;
+  z-index: 1;
+  display: inline-flex;
+  gap: 8px;
+  list-style: none;
+  font-family: 'Formular';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 14px;
+}

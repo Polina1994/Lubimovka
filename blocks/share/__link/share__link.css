@@ -1,0 +1,10 @@
+.share__link {
+  padding: 2px 12px 5px 24px;
+  border-left: 1px solid #242424;
+  border-bottom: 1px solid #242424;
+  text-decoration: none;
+  color: #242424;
+  background-image: url(../../../images/ui/arrow-right.svg);
+  background-position: left center;
+  background-repeat: no-repeat;
+}
