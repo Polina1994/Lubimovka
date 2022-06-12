@@ -36,6 +36,7 @@
 @import url(../blocks/photo-gallery/__title/photo-gallerey__title.css);
 
 @import url(../blocks/press-reviews//press-reviews.css);
+<<<<<<< HEAD
 @import url(../blocks/press-reviews/__container/press-reviews__container.css);
 @import url(../blocks/press-review/press-review.css);
 @import url(../blocks/press-review/_inactive/press-review_inactive.css);
@@ -56,6 +57,9 @@
 @import url(../blocks/slider-navigation/__dot/_active/slider-navigation__dot_active.css);
 @import url(../blocks/slider-navigation/__buttons/slider-navigation__buttons.css);
 
+=======
+@import url(../blocks/audience-reviews/audience-reviews.css);
+>>>>>>> 2a4666e6776c26249d25520a5d2f60ef082b446a
 @import url(../blocks/share/share.css);
 @import url(../blocks/share/__temp/share__temp.css);
 @import url(../blocks/share/__photo/share__photo.css);
