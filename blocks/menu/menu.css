@@ -1,3 +1,11 @@
 .menu {
-  
+  margin: 0;
+  padding: 0 41px 0 43px;
+  box-sizing: border-box;
+  display: block;
+  grid-column: 2;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  border-right: 1px solid black;
 }

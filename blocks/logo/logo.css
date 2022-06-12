@@ -1,3 +1,8 @@
 .logo {
-  
+  margin: 0;
+  padding: 0;
+  height: 35px;
+  width: 43px;
+  grid-column: 1;
+  align-self: center;
 }
