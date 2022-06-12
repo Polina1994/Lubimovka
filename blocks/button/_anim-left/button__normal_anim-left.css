@@ -1,3 +1,34 @@
-.button__normal_anim-left{
-    
+.button_anim-left{
+    position: relative;
+    color: #000;
+    fill: #000;
+    transition: all .5s ease; 
+}
+.button_anim-left:hover{
+
+    color: #fff;
+    fill: #fff;
+}
+.button_anim-left::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 100%;
+    background-color: #000;
+    transition: all .5s ease;    
+}
+.button_anim-left:hover:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+.button_anim-left:active:before{
+    content: '';
+    transform: scale(1.1);
 }

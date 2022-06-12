@@ -1,34 +1,31 @@
-.button_anim-right{
+.button_anim-up{
     position: relative;
     color: #000;
     fill: #000;
     transition: all .5s ease; 
 }
-.button_anim-right:hover{
+.button_anim-up:hover{
 
     color: #fff;
     fill: #fff;
 }
-.button_anim-right::before{
+.button_anim-up::before{
     content: '';
     position: absolute;
     z-index: -1;
-    right: 0;
+    left: 0;
     bottom: 0;
-    width: 0;
-    height: 100%;
+    width: 100%;
+    height: 0;
     background-color: #000;
     transition: all .5s ease;    
 }
-.button_anim-right:hover:before{
+.button_anim-up:hover:before{
     content: '';
     position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 100%;
     height: 100%;
 }
-.button_anim-right:active:before{
+.button_anim-up:active:before{
     content: '';
     transform: scale(1.1);
 }

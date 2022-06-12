@@ -84,15 +84,29 @@
 @import url(../blocks/footer/__credits/footer__credits.css);
 
 @import url(../blocks/button/button.css);
+@import url(../blocks/button/button-area.css);
 @import url(../blocks/button/__big/button__big.css);
 @import url(../blocks/button/__normal/button__normal.css);
 @import url(../blocks/button/__normal/_large/button__normal_large.css);
+@import url(../blocks/button/__normal/_large-big/button__normal_large-big.css);
 @import url(../blocks/button/__normal/_middle-big/button__normal_middle-big.css);
 @import url(../blocks/button/__normal/_middle/button__normal_middle.css);
 @import url(../blocks/button/__normal/_small/button__normal_small.css);
 @import url(../blocks/button/_anim-diagonal/button_anim-diagonal.css);
 @import url(../blocks/button/_anim-down/button_anim-down.css);
-@import url(../blocks/button/_anim-down/_no-border/button_anim-down_no-border.css);
 @import url(../blocks/button/_anim-left/button__normal_anim-left.css);
+@import url(../blocks/button/_anim-up/button_anim-up.css);
 @import url(../blocks/button/_anim-right/button_anim-right.css);
+@import url(../blocks/button/_border-left-botom/button_border-left-bottom.css);
+@import url(../blocks/button/_border-left-top/button_border-left-top.css);
+@import url(../blocks/button/_border-right-bottom/button_border-right-bottom.css);
+@import url(../blocks/button/__normal/_padding-left/button__normal_padding-left.css);
+@import url(../blocks/button/__normal/_padding-right/button__normal_padding-right.css);
+
+@import url(../blocks/icon-button/__arrow-diagonal/icon-button__arrow-diagonal.css);
+@import url(../blocks/icon-button/__arrow-down/icon-button__arrow-down.css);
+@import url(../blocks/icon-button/__arrow-left/icon-button__arrow-left.css);
+@import url(../blocks/icon-button/__arrow-right/icon-button__arrow-right.css);
+@import url(../blocks/icon-button/__arrow-up/icon-button__arrow-up.css);
+@import url(../blocks/icon-button/__plus/icon-button__plus.css);
 
