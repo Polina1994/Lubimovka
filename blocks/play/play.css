@@ -1,12 +1,3 @@
 .play {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-bottom: 80px;
-}
-
-@media screen and (max-width: 920px) {
-    .play {
-        display: flex;
-        flex-direction: column;
-    }
+  
 }

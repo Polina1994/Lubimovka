@@ -26,19 +26,6 @@
 @import url(../blocks/hero/__image/hero__image.css);
 @import url(../blocks/hero/__project-description/hero__project-description.css);
 @import url(../blocks/play/play.css);
-@import url(../blocks/play/__column/play__column.css);
-@import url(../blocks/play/__column/_position/play__column_position_left.css);
-@import url(../blocks/play/__column/_position/play__column_position_right.css);
-@import url(../blocks/play/__info/play__info.css);
-@import url(../blocks/play/__info-text/play__info-text.css);
-@import url(../blocks/play/__divider/play__divider.css);
-@import url(../blocks/play/__data/play__data.css);
-@import url(../blocks/play/__data-position/play__data-position.css);
-@import url(../blocks/play/__data-name/play__data-name.css);
-@import url(../blocks/play/__video/play__video.css);
-@import url(../blocks/play/__text/play__text.css);
-@import url(../blocks/play/__paragraph/play__paragraph.css);
-@import url(../blocks/play/__paragraph/_decorated/play__paragraph_decorated_red-line.css);
 @import url(../blocks/readings/readings.css);
 @import url(../blocks/photo-gallery/photo-gallery.css);
 @import url(../blocks/press-reviews//press-reviews.css);
@@ -108,3 +95,7 @@
 @import url(../blocks/button/_anim-left/button__normal_anim-left.css);
 @import url(../blocks/button/_anim-right/button_anim-right.css);
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> cf4a1f6 (Revert "Develop")
