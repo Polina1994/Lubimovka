@@ -102,6 +102,8 @@
 @import url(../blocks/button/_border-right-bottom/button_border-right-bottom.css);
 @import url(../blocks/button/__normal/_padding-left/button__normal_padding-left.css);
 @import url(../blocks/button/__normal/_padding-right/button__normal_padding-right.css);
+@import url(../blocks/button/__slider-left/button__slider-left.css);
+@import url(../blocks/button/__slider-right/button__slider-right.css);
 
 @import url(../blocks/icon-button/__arrow-diagonal/icon-button__arrow-diagonal.css);
 @import url(../blocks/icon-button/__arrow-down/icon-button__arrow-down.css);
@@ -109,4 +111,6 @@
 @import url(../blocks/icon-button/__arrow-right/icon-button__arrow-right.css);
 @import url(../blocks/icon-button/__arrow-up/icon-button__arrow-up.css);
 @import url(../blocks/icon-button/__plus/icon-button__plus.css);
+@import url(../blocks/icon-button/__slider-left/icon-button__slider-left.css);
+@import url(../blocks/icon-button/__slider-right/icon-button__slider-right.css);
 
