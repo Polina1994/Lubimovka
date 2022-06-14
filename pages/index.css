@@ -113,6 +113,7 @@
 @import url(../blocks/footer/__credits/footer__credits.css);
 @import url(../blocks/footer/__credits/_team/footer__credits_team.css);
 @import url(../blocks/footer/__credits/_design/footer__credits_design.css);
+@import url(../blocks/footer/__credits/_icon/footer__credits_icon.css);
 @import url(../blocks/footer/__info/footer__info.css);
 
 @import url(../blocks/button/button.css);
