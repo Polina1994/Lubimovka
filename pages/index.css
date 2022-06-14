@@ -104,6 +104,21 @@
 @import url(../blocks/button/__normal/_padding-right/button__normal_padding-right.css);
 @import url(../blocks/button/__slider-left/button__slider-left.css);
 @import url(../blocks/button/__slider-right/button__slider-right.css);
+@import url(../blocks/button/__slider-control/button__slider-control.css);
+
+@import url(../blocks/button/__burger-menu/button__burger-menu.css);
+@import url(../blocks/button/__burger-menu/_bottom-strip/button__burger-menu_bottom-strip.css);
+@import url(../blocks/button/__burger-menu/_middle-strip/button__burger-menu_middle-strip.css);
+@import url(../blocks/button/__burger-menu/_top-strip/button__burger-menu_top-strip.css);
+@import url(../blocks/button/__burger-menu/_toggle/button__burger-menu_toggle.css);
+
+@import url(../blocks/button/__menu/button__menu.css);
+@import url(../blocks/nav/nav.css);
+@import url(../blocks/nav-wrapper/nav-wrapper.css);
+@import url(../blocks/nav-wrapper/__item/nav-wrapper__item.css);
+@import url(../blocks/nav-wrapper/__items/nav-wrapper__items.css);
+@import url(../blocks/nav-wrapper/__menu/nav-wrapper__menu.css);
+@import url(../blocks/nav-wrapper/__link/nav-wrapper__link.css);
 
 @import url(../blocks/icon-button/__arrow-diagonal/icon-button__arrow-diagonal.css);
 @import url(../blocks/icon-button/__arrow-down/icon-button__arrow-down.css);
@@ -113,4 +128,6 @@
 @import url(../blocks/icon-button/__plus/icon-button__plus.css);
 @import url(../blocks/icon-button/__slider-left/icon-button__slider-left.css);
 @import url(../blocks/icon-button/__slider-right/icon-button__slider-right.css);
+@import url(../blocks/icon-button/__elipse-left/icon-button__elipse-left.css);
+@import url(../blocks/icon-button/__elipse-right/icon-button__elipse-right.css);
 
