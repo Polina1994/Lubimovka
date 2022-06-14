@@ -1,7 +1,15 @@
 .share__photo {
-  margin: 0 auto;
+  margin: 0 auto 52px;
   padding: 0;
   display: block;
-  width: 91%;
+  width: 1320;
+  height: 404px;
   max-width: 1320px;
+  transition: all 0.3s linear;
+}
+
+@media screen and (max-width: 768px) {
+  .share__photo {
+    width: 100%;
+  }
 }
