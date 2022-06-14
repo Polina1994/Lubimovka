@@ -1,0 +1,8 @@
+.share__btn-container {
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  margin-top: -20px;
+  display: flex;
+  gap: 8px;
+}
