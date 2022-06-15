@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     max-width: 88%;
-    margin-left: 14px;
 }
 
 @media screen and (max-width: 415px){
