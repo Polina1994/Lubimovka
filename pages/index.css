@@ -46,8 +46,9 @@
 @import url(../blocks/share/share.css);
 @import url(../blocks/share/__links/share__links.css);
 @import url(../blocks/share/__link/share__link.css);
-@import url(../blocks/readings/__author/readings__author.css);
 
+@import url(../blocks/readings/__author/readings__author.css);
+@import url(../blocks/title-readings/title-readings.css);
 @import url(../blocks/readings/__card/readings__card.css);
 @import url(../blocks/readings/__info/readings__info.css);
 @import url(../blocks/readings/__title/readings__title.css);

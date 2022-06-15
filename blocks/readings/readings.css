@@ -2,6 +2,12 @@
   margin-bottom: 144px;
 }
 
+@media screen and (max-width: 920px) {
+  .readings {
+      align-self: center;
+  }
+}
+
 @media screen and (max-width: 425px) {
     .readings {
         margin-bottom: 100px;
