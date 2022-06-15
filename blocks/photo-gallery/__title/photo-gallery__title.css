@@ -5,7 +5,7 @@
     font-size: max(28px, calc(40 / 1440 * 100vw));
     line-height: max(32px, calc(40 / 1440 * 100vw));
     letter-spacing: -0.01em;
-    color: #242424;
+    color: var(--black-text);
     max-width: calc(568 / 1440 * 100vw);
     margin-left: calc(362 / 1440 * 100vw);
 }
