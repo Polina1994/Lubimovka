@@ -8,6 +8,7 @@
     color: #242424;
     max-width: calc(568 / 1440 * 100vw);
     margin-left: calc(362 / 1440 * 100vw);
+    margin-top: 0;
 }
 
 @media screen and (max-width: 425px) {
