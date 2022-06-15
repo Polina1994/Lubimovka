@@ -11,3 +11,6 @@
 .play__paragraph:nth-child(3) {
     margin-top: 13px;
 }
+.play__paragraph:nth-child(2) {
+    width: 95%;
+}
