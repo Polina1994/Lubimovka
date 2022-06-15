@@ -1,5 +1,5 @@
 .hero__title {
-  margin: 52px 0 44px 0;
+  margin: 62px 0 40px 0;
   font-size: min(40px + 32 * (100vw - 800px) / 640, 72px);
   line-height: min(40px + 30 * (100vw - 800px) / 640,70px);
   letter-spacing: -0.01em;
