@@ -4,7 +4,6 @@
   justify-content: center;
   margin-bottom: 0;
   /* margin-left: calc(720 / 1440 * 100vw); */
-  margin-right: 50%;
 }
 
 @media screen and (max-width: 425px) {
