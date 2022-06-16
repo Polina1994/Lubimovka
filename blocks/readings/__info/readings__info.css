@@ -5,7 +5,7 @@
     font-weight: 300;
     font-size: 16px;
     line-height: 22px;
-    color: #242424;
+    color: var(--black-text);
     max-width: 155px;
     margin-top: 4px;
 }

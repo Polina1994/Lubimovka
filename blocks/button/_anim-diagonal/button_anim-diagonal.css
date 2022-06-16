@@ -1,3 +1,33 @@
 .button_anim-diagonal{
-    
+    position: relative;
+    color: #242424;
+    fill: #242424;
+    transition: all .5s ease; 
+}
+
+.button_anim-diagonal:hover{
+
+    color: #fff;
+    fill: #fff;
+}
+.button_anim-diagonal::before{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    background-color: #242424;
+    transition: all .5s ease;    
+}
+.button_anim-diagonal:hover:before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.button_anim-diagonal:active:before{
+    content: '';
+    transform: scale(1.1);
 }
