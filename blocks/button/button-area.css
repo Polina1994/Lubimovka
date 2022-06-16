@@ -1,0 +1,9 @@
+.button-area{
+    margin: 0 auto;
+    padding: 50px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 30px;
+}

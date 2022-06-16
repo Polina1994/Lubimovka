@@ -1,11 +1,11 @@
 .button__normal{
     padding: 0;
     margin: 0;
+    line-height: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     border: none;
     background-color: inherit;
-
 }
