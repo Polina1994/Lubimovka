@@ -1,8 +1,8 @@
 @import url(../vendor/fonts.css);
 @import url(../vendor/normalize.css);
 @import url(../blocks/root/root.css);
+@import url(../blocks/page-container/page-container.css);
 @import url(../blocks/body/body.css);
-
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__btn-donat/header__btn-donat.css);
 @import url(../blocks/logo/logo.css);
@@ -46,16 +46,19 @@
 @import url(../blocks/share/share.css);
 @import url(../blocks/share/__links/share__links.css);
 @import url(../blocks/share/__link/share__link.css);
+
 @import url(../blocks/readings/__author/readings__author.css);
-@import url(../blocks/readings/__button/readings__button.css);
+@import url(../blocks/title-readings/title-readings.css);
 @import url(../blocks/readings/__card/readings__card.css);
 @import url(../blocks/readings/__info/readings__info.css);
 @import url(../blocks/readings/__title/readings__title.css);
 @import url(../blocks/photo-gallery/photo-gallery.css);
-@import url(../blocks/photo-gallery/__title/photo-gallerey__title.css);
-@import url(../blocks/photo-gallery/__block/photo-gallerey__block.css);
-@import url(../blocks/photo-gallery/__item/photo-gallerey__item.css);
-@import url(../blocks/photo-gallery/__title/photo-gallerey__title.css);
+@import url(../blocks/photo-gallery/__title/photo-gallery__title.css);
+@import url(../blocks/photo-gallery/__block/photo-gallery__block.css);
+@import url(../blocks/photo-gallery/__item/photo-gallery__item.css);
+@import url(../blocks/photo-gallery/__title/photo-gallery__title.css);
+@import url(../blocks/icon-button/__type/icon-button__type_down.css);
+@import url(../blocks/icon-button/__type/icon-button__type_up-right.css);
 
 @import url(../blocks/press-reviews//press-reviews.css);
 @import url(../blocks/press-reviews/__container/press-reviews__container.css);
@@ -129,3 +132,4 @@
 @import url(../blocks/button/_anim-left/button__normal_anim-left.css);
 @import url(../blocks/button/_anim-right/button_anim-right.css);
 
+@import url(../blocks/readings/__button/readings__button.css);
