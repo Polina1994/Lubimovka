@@ -15,3 +15,9 @@
   line-height: 17px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1024px) {
+  .header__btn-donat {
+    border-left: none;
+  }
+}
