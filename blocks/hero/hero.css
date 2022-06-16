@@ -3,8 +3,7 @@
   width: 100%;
   margin: 0 auto 68px;
   display: flex;
-  flex-wrap: wrap;
-  background: #eceBe8;/*временно. пока не появится BG страницы*/  
+  flex-wrap: wrap;    
   font-family: 'Neue Machina', sans-serif;
   font-style: normal;
   font-weight: 400;
