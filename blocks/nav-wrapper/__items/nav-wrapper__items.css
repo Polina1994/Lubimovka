@@ -1,0 +1,8 @@
+.nav-wrapper__items{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
