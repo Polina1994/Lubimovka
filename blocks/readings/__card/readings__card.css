@@ -1,5 +1,5 @@
 .readings__card {
-    background-color: #B7C09D;
+    background-color: var(--green);
     height: 300px;
     width: 240px;
     margin-bottom: 17px;

@@ -7,6 +7,10 @@
 }
 
 .root {
+<<<<<<< HEAD
   margin: 0 auto;
   max-width: 1440px;
+=======
+  background-color: var(--grey-background);
+>>>>>>> f83e0f3550cd15a8976d7c277a614c49987f16b2
 }
