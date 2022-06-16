@@ -1,0 +1,4 @@
+.footer__partners {
+    display: flex;
+    flex-direction: row;
+}

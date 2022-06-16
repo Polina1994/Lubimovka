@@ -1,3 +1,7 @@
 .footer__privacy {
-  
+    text-decoration: none;
+    color: #242424;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
 }

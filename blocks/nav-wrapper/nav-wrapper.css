@@ -1,0 +1,7 @@
+.nav-wrapper{
+    position: relative;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 100%;
+    background-color: #ECEBE8;
+}
