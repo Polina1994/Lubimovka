@@ -1,0 +1,19 @@
+.button__burger-menu_toggle{
+    display: none;
+}
+.button__burger-menu_toggle:checked + .button__burger-menu .button__burger-menu_top-strip {
+    transform: rotate(-45deg);
+    margin-top: 10px;
+  }
+.button__burger-menu_toggle:checked + .button__burger-menu .button__burger-menu_bottom-strip {
+    opacity: 0;
+    transform: rotate(45deg);
+  }
+.button__burger-menu_toggle:checked + .button__burger-menu .button__burger-menu_middle-strip {
+    transform: rotate(45deg);
+    margin-top: -2px;
+  }
+.button__burger-menu_toggle:checked + .button__burger-menu + .nav {
+    top: 0;
+    transform: scale(1);
+  }

@@ -1,0 +1,7 @@
+.button__burger-menu_top-strip{
+    position: relative;
+    width: 20px;
+    border: 1px solid #ECEBE8;
+    background-color: #ECEBE8;
+    transition: all 0.3s ease-in-out;
+}
