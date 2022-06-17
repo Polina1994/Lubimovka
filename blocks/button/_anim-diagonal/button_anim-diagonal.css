@@ -3,6 +3,7 @@
     color: #242424;
     fill: #242424;
     transition: all .5s ease; 
+    z-index: 1;
 }
 
 .button_anim-diagonal:hover{
