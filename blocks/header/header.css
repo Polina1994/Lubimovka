@@ -5,13 +5,14 @@
   box-sizing: border-box;
   display: grid;
   grid-template-rows: 1fr;
+  grid-template-columns: repeat(6, -webkit-min-content);
   grid-template-columns: repeat(6, min-content);
   justify-items: center;
   align-items: center;
   width: 100%;
   max-width: 1440px;
-  color: black;
-  border-bottom: 1px solid black;
+  color: var(--coal);
+  border-bottom: 1px solid var(--coal);
 }
 
 .header::before {
@@ -20,4 +21,14 @@
   width: 100%;
   background-color: transparent;
   height: 11px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    margin-bottom: 49px;
+    height: 72px;
+  }
+  .header::before {
+    display: none;
+  }
 }

@@ -7,5 +7,5 @@
   font-family: 'Formular';
   font-style:  normal;
   font-weight: 300;
-  color: black;
+  color: var(--coal);
 }

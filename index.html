@@ -15,48 +15,115 @@
   <div class="page-container">
     <header class="header">
       <a href="#" class="logo"><div class="logo__img"></div></a>
+      <div class="button__menu">
+        <input class="button__burger-menu_toggle" id="toggle" type="checkbox"></input>
+        <label class="button__burger-menu" for="toggle" class="hamburger">
+          <div class="button__burger-menu_top-strip"></div>
+          <div class="button__burger-menu_middle-strip"></div>
+          <div class="button__burger-menu_bottom-strip"></div>
+        </label>
+        <nav class="burger-nav">
+          <div class="nav-wrapper">
+            <nav class="nav-wrapper__menu">
+              <ul class="nav-wrapper__items">
+                <li class="nav-wrapper__item">
+                  <svg class="icon-button__elipse-left"></svg>
+                  <a class="nav-wrapper__link" href="#">Главная</a>
+                  <svg class="icon-button__elipse-right"></svg>
+                </li>
+                <li class="nav-wrapper__item">
+                  <svg class="icon-button__elipse-left"></svg>
+                  <a class="nav-wrapper__link" href="#">Афиша</a>
+                  <svg class="icon-button__elipse-right"></svg>
+                </li>
+                <li class="nav-wrapper__item">
+                  <svg class="icon-button__elipse-left"></svg>
+                  <a class="nav-wrapper__link" href="#">Библиотека</a>
+                  <svg class="icon-button__elipse-right"></svg>
+                </li>
+                <li class="nav-wrapper__item">
+                  <svg class="icon-button__elipse-left"></svg>
+                  <a class="nav-wrapper__link" href="#">Проекты</a>
+                  <svg class="icon-button__elipse-right"></svg>
+                </li>
+                <li class="nav-wrapper__item">
+                  <svg class="icon-button__elipse-left"></svg>
+                  <a class="nav-wrapper__link" href="#">История</a>
+                  <svg class="icon-button__elipse-right"></svg>
+                </li>
+                <li class="nav-wrapper__item">
+                  <svg class="icon-button__elipse-left"></svg>
+                  <a class="nav-wrapper__link" href="#">Блог</a>
+                  <svg class="icon-button__elipse-right"></svg>
+                </li>
+                <li class="nav-wrapper__item">
+                  <svg class="icon-button__elipse-left"></svg>
+                  <a class="nav-wrapper__link" href="#">Новости</a>
+                  <svg class="icon-button__elipse-right"></svg>
+                </li>
+                <li class="nav-wrapper__item">
+                  <svg class="icon-button__elipse-left"></svg>
+                  <a class="nav-wrapper__link" href="#">О фествале</a>
+                  <svg class="icon-button__elipse-right"></svg>
+                </li>
+                <li class="nav-wrapper__item">
+                  <svg class="icon-button__elipse-left"></svg>
+                  <a class="nav-wrapper__link" href="#">Контакты</a>
+                  <svg class="icon-button__elipse-right"></svg>
+                </li>
+                <li class="nav-wrapper__item">
+                  <svg class="icon-button__elipse-left"></svg>
+                  <a class="nav-wrapper__link" href="#">Для прессы</a>
+                  <svg class="icon-button__elipse-right"></svg>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </nav>
+      </div>
+
       <nav class="menu">
         <ul class="menu__links">
-          <li class="menu__link-item">
+          <li>
             <a class="menu__link" href="#">Афиша</a>
           </li>
-          <li class="menu__link-item">
+          <li>
             <a class="menu__link" href="#">Библиотека</a>
           </li>
-          <li class="menu__link-item">
+          <li>
             <a class="menu__link" href="#">Проекты</a>
           </li>
-          <li class="menu__link-item">
+          <li>
             <a class="menu__link" href="#">История</a>
           </li>
-          <li class="menu__link-item">
+          <li>
             <a class="menu__link" href="#">Блог</a>
           </li>
-          <li class="menu__link-item">
+          <li>
             <a class="menu__link" href="#">Новости</a>
           </li>
-          <li class="menu__link-item">
+          <li>
             <a class="menu__link" href="#">О&nbsp;фестивале</a>
           </li>
-          <li class="menu__link-item">
+          <li>
             <a class="menu__link" href="#">Контакты</a>
           </li>
         </ul>
       </nav>
       <ul class="menu__social-links">
-          <li class="menu__social-link">
+          <li>
             <a class="menu__link" href="https://facebook.com/festival.lubimovka">fb</a>
           </li>
-          <li class="menu__social-link">
+          <li>
             <a class="menu__link" href="https://instagram.com/lubimovka">inst</a>
           </li>
-          <li class="menu__social-link">
+          <li>
             <a class="menu__link" href="https://www.youtube.com/channel/UCDZ1HTzBVBxm_vw6tV7C3lg">ytube</a>
           </li>
-          <li class="menu__social-link">
+          <li>
             <a class="menu__link" href="https://t.me/lubimovka">tlgrm</a>
           </li>
-          <li class="menu__social-link">
+          <li>
             <a class="menu__link" href="https://vk.com/festival.lubimovka">vk</a>
           </li>
       </ul>
@@ -149,84 +216,7 @@
         </article>
       </section>
   
-      <section class="press-reviews">
-        <div class="slider-container">
-          <h2 class="slider-container__title">Рецензии</h2>
-          <div class="slider-navigation">
-            <div class="slider-navigation__dots">
-              <div class="slider-navigation__dot slider-navigation__dot_active"></div>
-              <div class="slider-navigation__dot"></div>
-              <div class="slider-navigation__dot"></div>
-              <div class="slider-navigation__dot"></div>
-            </div>
-            <div class="slider-navigation__buttons">
-              <button class="button__slider"></button>
-              <button class="button__slider"></button>
-          </div>
-          </div>
-        </div>
-        <ul class="press-reviews__container">
-          <li class="press-review press-review_inactive"></li>
-          <li class="press-review">
-            <img class="press-review__logo" src="./images/logo/tnyt-logo.svg" alt="">
-            <p class="press-review__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе, 
-              где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна эта работа, её муж 
-              недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает контроль 
-              над левой рукой её беспокойного Джейсона и принимается терроризировать его и всех вокруг. По мере накала страстей 
-              окружающие начинают подозревать, что рука одержима самим дьяволом, и пастор Грег предлагает прибегнуть к экзорцизму. 
-              Однако «Длань Господня» — это не ужастик, по крайней мере, природа зла тут вовсе не сверхъестественная. Чёрная комедия 
-              Аскинса о разделённой надвое душе человека ненавязчиво обнажает глубинные импульсы — сексуальные, саморазрушительные, 
-              агрессивные — которые притаились в каждом из нас».</p>
-            <div class="press-review__button">
-              <button class="button__normal button__normal_large">ЧИТАТЬ ПОЛНОСТЬЮ</button>
-            </div>  
-          </li>
-          <li class="press-review press-review_inactive">
-            <img class="press-review__logo" src="./images/logo/sobaka-logo.svg" alt="">
-            <p class="press-review__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе, 
-              где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна эта работа, её муж 
-              недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает контроль
-               над левой рукой её беспокойного Джейсона и принимается терроризировать его и всех вокруг.</p>
-            <div class="press-review__button">
-              <button class="button__normal button__normal_large">ЧИТАТЬ ПОЛНОСТЬЮ</button>
-            </div>  
-          </li>
-        </ul>
-      </section>
-  
-      <section class="audience-reviews">
-        <div class="slider-container">
-          <h2 class="slider-container__title">Отзывы зрителей</h2>
-          <div class="slider-navigation">
-            <div class="slider-navigation__dots">
-              <div class="slider-navigation__dot slider-navigation__dot_active"></div>
-              <div class="slider-navigation__dot"></div>
-              <div class="slider-navigation__dot"></div>
-              <div class="slider-navigation__dot"></div>
-            </div>
-            <div class="slider-navigation__buttons">
-              <button class="button__slider"></button>
-              <button class="button__slider"></button>
-          </div>
-          </div>
-        </div>
-        <ul class="audience-reviews__container">
-          <li class="audience-review">
-            <p class="audience-review__text">Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или про коня Боджэка возникает — я думаю, 
-              и пьеса написана с этой интонацией американских взрослых мультсериалов. И как хорошо все это с куклой-носочком. Так все чисто сделано!</p>
-            <p class="audience-review__author">Наталья Зайцева</p>
-          </li>
-          <li class="audience-review">
-            <p class="audience-review__text">Для самой этой истории формат читки работает отличным ироническим отстранением</p>
-            <p class="audience-review__author">Дина Годер</p>
-          </li>
-          <li class="audience-review">
-            <p class="audience-review__text">Мне данный формат дал возможность самой выбирать, как двигается персонаж, что на нем надето, 
-              какую машину он водит, и что за плакат висит в подвале церкви. Это было приятно, ведь я как будто сама поучаствовала в спектакле</p>
-            <p class="audience-review__author">Дарья Морозова</p>
-          </li>
-        </ul>
-      </section>
+
   
       <section class="share">
         <img class="share__photo" src="./images/content/share__photo.png" alt="Черно-белая фотография на театральной сцене">
@@ -249,66 +239,7 @@
    
     </main>
   
-    <footer class="footer">
-      <div class="footer__partners">
-        <img class="logo-with-text" src="./images/logo/footer-logo.svg" alt="логотип"><!--лого - блок, можно использовать в других местах-->
-  
-        <ul class="partners"> <!--список партнеров - блок, можно использовать в других местах-->
-            <li class="partners__list"><p class="partners__list_title">Генеральные партнеры</p></li>
-            <li class="partners__list"><img src="./images/logo/fond-logo.png" class="partners__list_image"></li>
-            <li class="partners__list"><img src="./images//logo/mosbrew-logo.png" class="partners__list_image"></li>
-            <li class="partners__list"><img src="./images/logo/sbtg-logo.png" class="partners__list_image"></li>
-            <li class="partners__list"><img src="./images/logo/pogovorit-logo.png" class="partners__list_image"></li>
-        </ul>
-      </div>
-  
-      <div class="footer__about">
-        
-        <div class="address">
-          <h2 class="address__title">Площадка «8/3»</h2>
-          <p class="address__description">Москва,<br> ул. Казакова, 8, стр. 3 Метро «Курская»</p>
-        </div><!--адрес - блок, можно использовать в других местах-->
-  
-        <nav class="menu-extra"><!--расширенное меню - блок, можно использовать в других местах-->
-          <ul class="menu-extra__links">
-              <li class="menu-extra__text">Любимовка</li>
-              <li class="menu-extra__text">Афиша</li>
-              <li class="menu-extra__text">Библиотека</li>
-              <li class="menu-extra__text">Блог</li>
-              <li class="menu-extra__text">Новости</li>
-          </ul>
-          <ul class="menu-extra__about">
-              <li class="menu-extra__text">О фестивале</li>
-              <li class="menu-extra__text">Организаторы</li>
-              <li class="menu-extra__text">История</li>
-              <li class="menu-extra__text">Контакты</li>
-              <li class="menu-extra__text">Для прессы</li>
-          </ul>
-          <ul class="menu-extra__project">
-              <li class="menu-extra__text">Все проекты</li>
-              <li class="menu-extra__text">Любимовка.Ещё</li>
-              <li class="menu-extra__text">Спектакли</li>
-              <li class="menu-extra__text">Сборник Любимовка.Пьесы</li>
-              <li class="menu-extra__text">Lark+Любимовка</li>
-              <li class="menu-extra__text">Практика постдраматурга</li>
-              <li class="menu-extra__text">Эхо Любимовки</li>
-          </ul>
-        </nav>
-      </div>
-  
-        </ul>
-      </nav>
-      <div class="footer__additional-info">
-        <p class="footer__copyright"></p>      
-        <a class="footer__privacy" href="#" target="blank"></a> <!--Политика конфиденциальности
-          либо ссылка на отдельную страницу, либо кнопка для открытия попапа-->      
-      </div>
-      <div class="footer__credits">
-        <img src="./images/logo/footer-icon.svg" class="footer__credits_icon">
-        <p class="footer__credits_design">дизайн сайта — shishki.collective</p>
-        <p class="footer__credits_team">вёрстка и разработака — студенты Яндекс.Практикума</p>
-      </div>
-    </footer>
+
   </div>
   
   <button class="button__normal button__normal_middle button_anim-right">

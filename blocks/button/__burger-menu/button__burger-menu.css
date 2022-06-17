@@ -1,9 +1,9 @@
 .button__burger-menu{
     position: absolute;
     z-index: 5;
-    width: 75px;
-    height: 75px;
-    background-color: #242424;
+    width: 72px;
+    height: 72px;
+    background-color: var(--coal);
     display: flex;
     flex-direction: column;
     justify-content: center;

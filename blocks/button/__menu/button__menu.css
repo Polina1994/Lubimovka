@@ -1,3 +1,12 @@
-.button__menu{
-    position: relative;
+.button__menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .button__menu {
+        display: block;
+    }
 }
