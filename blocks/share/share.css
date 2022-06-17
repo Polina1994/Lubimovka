@@ -8,7 +8,7 @@
   width: 100%;
   min-width: 414px;
   max-width: 1320px;
-  color: var(--black-text);
+  color: var(--coal);
   transition: all 0.3s linear;
 }
 
