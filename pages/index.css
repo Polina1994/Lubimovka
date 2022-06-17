@@ -43,10 +43,6 @@
 @import url(../blocks/photo-gallery/photo-gallery.css);
 @import url(../blocks/press-reviews//press-reviews.css);
 @import url(../blocks/audience-reviews/audience-reviews.css);
-@import url(../blocks/share/share.css);
-@import url(../blocks/share/__links/share__links.css);
-@import url(../blocks/share/__link/share__link.css);
-
 @import url(../blocks/readings/__author/readings__author.css);
 @import url(../blocks/title-readings/title-readings.css);
 @import url(../blocks/readings/__card/readings__card.css);
@@ -82,11 +78,12 @@
 @import url(../blocks/slider-navigation/__buttons/slider-navigation__buttons.css);
 
 @import url(../blocks/share/share.css);
-@import url(../blocks/share/__temp/share__temp.css);
-@import url(../blocks/share/__btn-container/share__btn-container.css);
 @import url(../blocks/share/__photo/share__photo.css);
+@import url(../blocks/share/__text-container/share__text-container.css);
 @import url(../blocks/share/__text/share__text.css);
 
+@import url(../blocks/share/__links/share__links.css);
+@import url(../blocks/share/__link/share__link.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__about/footer__about.css);
