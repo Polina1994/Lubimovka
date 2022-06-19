@@ -20,6 +20,7 @@
 @import url(../blocks/hero/__navigation/hero__navigation.css);
 @import url(../blocks/hero/__column/hero__column.css);
 @import url(../blocks/hero/__column/_position/hero__column_position_left.css);
+@import url(../blocks/hero/__column/_position/hero__column_position_right.css);
 @import url(../blocks/hero/__title/hero__title.css);
 @import url(../blocks/hero/__subtitle/hero__subtitle.css);
 @import url(../blocks/hero/__date/hero__date.css);

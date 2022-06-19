@@ -1,7 +1,7 @@
 .hero__title {
   margin: 52px 0 44px 0;
-  font-size: min(40px + 32 * (100vw - 800px) / 640, 72px);
-  line-height: min(40px + 30 * (100vw - 800px) / 640,70px);
+  font-size: min(40px + 32 * (100vw - 768px) / 672, 72px);
+  line-height: min(40px + 30 * (100vw - 768px) / 672, 70px);
   letter-spacing: -0.01em;
   color: #242424;
 }
@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (min-width: 415px) and (max-width: 799px) {
+@media screen and (min-width: 415px) and (max-width: 767px) {
   .hero__title {
     margin: 0 0 16px -61px;
     font-size: 40px;

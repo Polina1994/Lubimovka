@@ -1,17 +1,18 @@
 .hero__subtitle {
-  margin: 0 0 min(31px + 181 * (100vw - 800px) / 640, 212px) 60px;
+  margin: 0 0 min(31px + 181 * (100vw - 768px) / 672, 212px) 60px;
   padding: 0;
-  width: 58.4%;/*418px, 58%*/
+  width: 58.4%;/*418px, 58%*/  
   font-size: 20px;
   line-height: 24px;
   letter-spacing: -0.01em;
   color: #242424;
 }
 
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 767px) {
   .hero__subtitle {
     margin: 0 0 31px 0;
-    width: 92%;/*304px, 73.4%*/
+    width: 73.4%;
+    /*304px, 73.4%*/
   }
 }
 
