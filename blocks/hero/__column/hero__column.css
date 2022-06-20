@@ -1,9 +1,8 @@
 .hero__column {
   width: 50%;
-  overflow: hidden;
 }
 
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 767px) {
   .hero__column {
     width: 100%;
     margin: 0;

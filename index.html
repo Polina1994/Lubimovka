@@ -64,16 +64,17 @@
         <img src="./images/ui/header-plus.svg" alt="Поддержать нас" class="icon-button">
         Поддержать
       </button>
-      <!-- <button class="button-donation"></button>  -->
     </header>
   
     <main>
       <section class="hero">
         <nav class="hero__navigation">
-          <button class="button__normal button__normal_middle button_anim-right">
+          <button class="button__normal button__normal_small button_anim-right button_border-right-bottom button__normal_padding-left">
             ПРОЕКТЫ
-            <img src="./images/ui/arrow-left.svg" alt="" class="icon-button">
-          </button>  
+            <svg class="icon-button__arrow-left" width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12.5234 21L11.7986 20.2752L6 14.4766L6.70287 13.7737L12.0235 19.0944L12.0235 3.05176e-05H13.0235L13.0235 19.0503L18.2752 13.7986L19 14.5235L13.2263 20.2972L12.5234 21Z"/>
+            </svg>
+          </button> 
         </nav>
         <div class="hero__column hero__column_position_left">
           <h1 class="hero__title">С_училища</h1>
@@ -81,13 +82,15 @@
           <span class="hero__date">12 мая 20:00</span>
           <button class="button__big button_anim-left">
             БИЛЕТЫ
-            <img src="./images/ui/arrow-right.svg" alt="" class="icon-button">
+            <svg class="icon-button__arrow-right" width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12.5234 21L11.7986 20.2752L6 14.4766L6.70287 13.7737L12.0235 19.0944L12.0235 3.05176e-05H13.0235L13.0235 19.0503L18.2752 13.7986L19 14.5235L13.2263 20.2972L12.5234 21Z"/>
+            </svg>
           </button>
         </div>
-        <div class="hero__column">
+        <div class="hero__column hero__column_position_right">
           <img class="hero__image" src="images/content/afisha.png" alt="Сцена из спектакля: Женщина под черной вуалью на переднем плане, позади две расплывчатые фигуры.">
           <article class="hero__project-description">Семён Серзин сделал читку этой пьесы&nbsp;в рамках основной программы Любимовки-2017, 
-            Варочный Цех предоставил грант на&nbsp;постановку,&nbsp;а Московский драматический театр имени А.С. Пушкина принял спектакль в&nbsp;репертуар.
+            Варочный Цех предоставил грант на постановку,&nbsp;а Московский драматический театр имени А.С. Пушкина принял спектакль в репертуар.
           </article>
         </div>
       </section>
@@ -213,22 +216,22 @@
       </section>
   
       <section class="share">
-        <!--<div class="share__temp"> временный div для выравнивания--> 
         <img class="share__photo" src="./images/content/share__photo.png" alt="Черно-белая фотография на театральной сцене">
-        <!-- место под кнопки -->
-        <p class="share__text">Рассказать о&nbsp;спектакле&nbsp;в&nbsp;соцсетях</p>
-        <ul class="share__links">
-          <li>
-            <a class="share__link" href="#">fb</a>
-          </li>
-          <li>
-            <a class="share__link" href="#">vk</a>
-          </li>
-          <li>
-            <a class="share__link" href="#">twtr</a>
-          </li>
-        </ul>   
-        <!--</div> временный div для выравнивания -->
+        <div class="share__text-container">
+          <p class="share__text">Рассказать</p>
+          <ul class="share__links">
+            <li>
+              <a class="share__link" href="#">fb</a>
+            </li>
+            <li>
+              <a class="share__link" href="#">vk</a>
+            </li>
+            <li>
+              <a class="share__link" href="#">twtr</a>
+            </li>
+          </ul>
+          <p class="share__text">о&nbsp;спектакле в&nbsp;соцсетях</p>
+        </div>
       </section>
    
     </main>
@@ -295,21 +298,6 @@
     </footer>
   </div>
   
-  <button class="button__normal button__normal_middle button_anim-right">
-    ПРОЕКТЫ
-    <img src="./images/ui/arrow-left.svg" alt="" class="icon-button">
-  </button>
-  <button class="button__big button_anim-left">
-    БИЛЕТЫ
-    <img src="./images/ui/arrow-right.svg" alt="" class="icon-button">
-  </button>
-  <button class="button-slider">
-    <i class="button-slider__icon"></i>
-  </button>
-  <button class="button-menu">
-    <i class="button-menu__icon"></i>
-  </button>
-
  <!-- Перейти на template элементы при разробтке на js-->
   <template id="audience-review-template">
     <li class="audience-review">
