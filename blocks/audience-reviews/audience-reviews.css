@@ -5,3 +5,9 @@
   align-items: center;
   margin: 0 0 64px 0;
 }
+
+@media screen and (min-width: 414px) and (max-width: 869px) {
+  .audience-reviews{
+    margin: 0 0 calc(64px - (64 - 0) * (869px - 100vw) / (869 - 414)) 0;
+  } 
+}

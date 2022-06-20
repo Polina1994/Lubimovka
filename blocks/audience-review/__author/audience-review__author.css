@@ -6,3 +6,9 @@
   letter-spacing: -0.01em;
   margin: 0 0 26px 30px;
 }
+
+@media screen and (min-width: 414px) and (max-width: 869px) {
+  .audience-review__author {
+    margin: 0 0 100px 27px;
+  }
+}
