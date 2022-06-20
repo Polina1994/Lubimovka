@@ -1,0 +1,16 @@
+.audience-reviews__slider {
+  max-width: 1320px;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 870px) and (max-width: 1320px) {
+  .audience-reviews__slider{
+    max-width: 870px;
+  } 
+}
+
+@media screen and (min-width: 414px) and (max-width: 869px) {
+  .audience-reviews__slider{
+    max-width: 414px;
+  } 
+}

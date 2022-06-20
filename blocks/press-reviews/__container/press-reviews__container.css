@@ -5,9 +5,8 @@
   min-height: 782px;
   display: flex;
   align-items: flex-start;
-  justify-content: center;
   gap: 30px;
-  width: 100%;
   position: relative;
-  overflow: hidden;
+  left: 362px;
+  transition: all ease 1s;
 }

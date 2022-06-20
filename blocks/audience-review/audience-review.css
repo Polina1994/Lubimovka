@@ -1,7 +1,15 @@
 .audience-review {
   background-color: #fff;
   min-height: 361px;
+  min-width: 420px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media screen and (min-width: 414px) and (max-width: 869px) {
+  .audience-review{
+    min-width: 420px;
+    min-height: 476px;
+  } 
 }
