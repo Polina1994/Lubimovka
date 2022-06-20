@@ -61,6 +61,7 @@
 @import url(../blocks/icon-button/__type/icon-button__type_up-right.css);
 
 @import url(../blocks/press-reviews//press-reviews.css);
+@import url(../blocks/press-reviews/__slider/press-reviews__slider.css);
 @import url(../blocks/press-reviews/__container/press-reviews__container.css);
 @import url(../blocks/press-review/press-review.css);
 @import url(../blocks/press-review/_inactive/press-review_inactive.css);
@@ -71,6 +72,7 @@
 @import url(../blocks/audience-reviews/audience-reviews.css);
 @import url(../blocks/slider-container/slider-container.css);
 @import url(../blocks/slider-container/__title/slider-container__title.css);
+@import url(../blocks/audience-reviews/__slider/audience-reviews__slider.css);
 @import url(../blocks/audience-reviews/__container/audience-reviews__container.css);
 @import url(../blocks/audience-review/audience-review.css);
 @import url(../blocks/audience-review/__text/audience-review__text.css);
