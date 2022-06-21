@@ -100,7 +100,7 @@
 @import url(../blocks/footer/__privacy/footer__privacy.css);
 @import url(../blocks/footer/__partners/footer__partners.css);
 
-@import url(../blocks/logo-with-text/);
+@import url(../blocks/logo-with-text/logo-with-text.css);
 
 @import url(../blocks/partners/partners.css);
 @import url(../blocks/partners/__list/_image/partners__list_image.css);
