@@ -10,6 +10,8 @@
     margin-bottom: 40px;
     max-width: calc(568 / 1440 * 100vw);
     margin-left: calc(362 / 1440 * 100vw);
+    margin-top: 0;
+    margin-bottom: 40px;
 }
 
 @media screen and (max-width: 425px) {

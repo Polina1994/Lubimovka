@@ -1,6 +1,6 @@
 .play__column_position_left {
     padding-left: 184px;
-    gap: 20px;
+    row-gap: 20px;
 }
 
 @media screen and (max-width: 1250px) {
