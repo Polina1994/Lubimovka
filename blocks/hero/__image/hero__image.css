@@ -5,12 +5,11 @@
   object-fit: contain;
 }
 
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 767px) {
   .hero__image {
-    width: 527.68px;
-    height: 450px;    
-    margin: 0 0 50px 0;       
-    object-fit: auto;
-    object-position: -65px 0px;
+    margin: 0 auto 53px;
+    height: 109vw;
+    object-fit: cover;
+    object-position: -50px 0;
   }
 }

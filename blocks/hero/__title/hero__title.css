@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (min-width: 415px) and (max-width: 799px) {
+@media screen and (min-width: 415px) and (max-width: 767px) {
   .hero__title {
     margin: 0 0 16px -61px;
     font-size: 40px;

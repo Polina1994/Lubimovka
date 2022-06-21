@@ -1,20 +1,18 @@
 .hero {
-  max-width: 1440px;
   width: 100%;
   margin: 0 auto 68px;
   display: flex;
   flex-wrap: wrap;
-  background: #eceBe8;/*временно. пока не появится BG страницы*/  
   font-family: 'Neue Machina', sans-serif;
   font-style: normal;
   font-weight: 400;
 }
 
-
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 767px) {
   .hero {
-    max-width: 799px;
+    max-width: 767px;
     margin: 0;
     padding-bottom: 100px;
+    flex-direction: column;
   }
 }

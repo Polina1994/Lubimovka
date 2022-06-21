@@ -1,4 +1,11 @@
 .photo-gallerey__item {
     height: clamp(120px, calc(251 / 1440 * 100vw), 251px);
-    width: clamp(175px, calc(360 / 1440 * 100vw), 360px);
+     width: clamp(175px, calc(360 / 1440 * 100vw), 360px);
+}
+
+@media screen and (max-width: 425px) {
+    .photo-gallerey__item {
+        height: clamp(auto, calc(251 / 1440 * 100vw), 251px);
+        width: clamp(calc(206 / 414 * 100vw), calc(360 / 1440 * 100vw), 360px);
+    }
 }

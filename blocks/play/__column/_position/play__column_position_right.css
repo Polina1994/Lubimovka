@@ -6,8 +6,8 @@
 
 @media screen and (max-width: 920px) {
     .play__column_position_right {
-        padding: 24px 24px 100px;
-        gap: 30px;
+        padding: 24px 24px 30px;
+        gap: 25px;
     }
     
 }
