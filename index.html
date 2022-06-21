@@ -12,36 +12,68 @@
     <title>Lubimovka</title>
 </head>
 <body class="root">
-  <div class="page-container">
-    <header class="header">
-      <a href="#" class="logo"><div class="logo__img"></div></a>
-      <nav class="menu">
-        <ul class="menu__links">
-          <li class="menu__link-item">
-            <a class="menu__link" href="#">Афиша</a>
-          </li>
-          <li class="menu__link-item">
-            <a class="menu__link" href="#">Библиотека</a>
-          </li>
-          <li class="menu__link-item">
-            <a class="menu__link" href="#">Проекты</a>
-          </li>
-          <li class="menu__link-item">
-            <a class="menu__link" href="#">История</a>
-          </li>
-          <li class="menu__link-item">
-            <a class="menu__link" href="#">Блог</a>
-          </li>
-          <li class="menu__link-item">
-            <a class="menu__link" href="#">Новости</a>
-          </li>
-          <li class="menu__link-item">
-            <a class="menu__link" href="#">О&nbsp;фестивале</a>
-          </li>
-          <li class="menu__link-item">
-            <a class="menu__link" href="#">Контакты</a>
-          </li>
-        </ul>
+  
+  <header class="header">
+    <a href="#" class="logo"><div class="logo__img"></div></a>
+    <nav class="menu">
+      <ul class="menu__links">
+        <li class="menu__link-item">
+          <a class="menu__link" href="#">Афиша</a>
+        </li>
+        <li class="menu__link-item">
+          <a class="menu__link" href="#">Библиотека</a>
+        </li>
+        <li class="menu__link-item">
+          <a class="menu__link" href="#">Проекты</a>
+        </li>
+        <li class="menu__link-item">
+          <a class="menu__link" href="#">История</a>
+        </li>
+        <li class="menu__link-item">
+          <a class="menu__link" href="#">Блог</a>
+        </li>
+        <li class="menu__link-item">
+          <a class="menu__link" href="#">Новости</a>
+        </li>
+        <li class="menu__link-item">
+          <a class="menu__link" href="#">О&nbsp;фестивале</a>
+        </li>
+        <li class="menu__link-item">
+          <a class="menu__link" href="#">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+    <ul class="menu__social-links">
+        <li class="menu__social-link">
+          <a class="menu__link" href="#">fb</a>
+        </li>
+        <li class="menu__social-link">
+          <a class="menu__link" href="#">inst</a>
+        </li>
+        <li class="menu__social-link">
+          <a class="menu__link" href="#">ytube</a>
+        </li>
+        <li class="menu__social-link">
+          <a class="menu__link" href="#">tlgrm</a>
+        </li>
+        <li class="menu__social-link">
+          <a class="menu__link" href="#">vk</a>
+        </li>
+    </ul>
+    <button class="header__btn-donat" type="button">
+      <img src="./images/ui/header-plus.svg" alt="Поддержать нас" class="icon-button">
+      Поддержать
+    </button>
+    <!-- <button class="button-donation"></button>  -->
+  </header>
+
+  <main>
+    <section class="hero">
+      <nav class="hero__navigation">
+        <button class="button__normal button__normal_middle button_anim-right">
+          ПРОЕКТЫ
+          <img src="./images/ui/arrow-left.svg" alt="" class="icon-button">
+        </button>  
       </nav>
       <ul class="menu__social-links">
           <li class="menu__social-link">
@@ -214,42 +246,43 @@
           </div>
           </div>
         </div>
-        <ul class="audience-reviews__container">
-          <li class="audience-review">
-            <p class="audience-review__text">Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или про коня Боджэка возникает — я думаю, 
-              и пьеса написана с этой интонацией американских взрослых мультсериалов. И как хорошо все это с куклой-носочком. Так все чисто сделано!</p>
-            <p class="audience-review__author">Наталья Зайцева</p>
-          </li>
-          <li class="audience-review">
-            <p class="audience-review__text">Для самой этой истории формат читки работает отличным ироническим отстранением</p>
-            <p class="audience-review__author">Дина Годер</p>
-          </li>
-          <li class="audience-review">
-            <p class="audience-review__text">Мне данный формат дал возможность самой выбирать, как двигается персонаж, что на нем надето, 
-              какую машину он водит, и что за плакат висит в подвале церкви. Это было приятно, ведь я как будто сама поучаствовала в спектакле</p>
-            <p class="audience-review__author">Дарья Морозова</p>
-          </li>
-        </ul>
-      </section>
-  
-      <section class="share">
-        <img class="share__photo" src="./images/content/share__photo.png" alt="Черно-белая фотография на театральной сцене">
-        <div class="share__text-container">
-          <p class="share__text">Рассказать</p>
-          <ul class="share__links">
-            <li>
-              <a class="share__link" href="#">fb</a>
-            </li>
-            <li>
-              <a class="share__link" href="#">vk</a>
-            </li>
-            <li>
-              <a class="share__link" href="#">twtr</a>
-            </li>
-          </ul>
-          <p class="share__text">о&nbsp;спектакле в&nbsp;соцсетях</p>
-        </div>
-      </section>
+      </div>
+      <ul class="audience-reviews__container">
+        <li class="audience-review">
+          <p class="audience-review__text">Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или про коня Боджэка возникает — я думаю, 
+            и пьеса написана с этой интонацией американских взрослых мультсериалов. И как хорошо все это с куклой-носочком. Так все чисто сделано!</p>
+          <p class="audience-review__author">Наталья Зайцева</p>
+        </li>
+        <li class="audience-review">
+          <p class="audience-review__text">Для самой этой истории формат читки работает отличным ироническим отстранением</p>
+          <p class="audience-review__author">Дина Годер</p>
+        </li>
+        <li class="audience-review">
+          <p class="audience-review__text">Мне данный формат дал возможность самой выбирать, как двигается персонаж, что на нем надето, 
+            какую машину он водит, и что за плакат висит в подвале церкви. Это было приятно, ведь я как будто сама поучаствовала в спектакле</p>
+          <p class="audience-review__author">Дарья Морозова</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="share">
+      <!--<div class="share__temp"> временный div для выравнивания--> 
+      <img class="share__photo" src="./images/content/share__photo.png" alt="Черно-белая фотография на театральной сцене">
+      <!-- место под кнопки -->
+      <p class="share__text">Рассказать о&nbsp;спектакле&nbsp;в&nbsp;соцсетях</p>
+      <ul class="share__links">
+        <li>
+          <a class="share__link" href="#">fb</a>
+        </li>
+        <li>
+          <a class="share__link" href="#">vk</a>
+        </li>
+        <li>
+          <a class="share__link" href="#">twtr</a>
+        </li>
+      </ul>   
+      <!--</div> временный div для выравнивания -->
+    </section>
    
     </main>
   
@@ -259,10 +292,10 @@
   
         <ul class="partners"> <!--список партнеров - блок, можно использовать в других местах-->
             <li class="partners__list"><p class="partners__list_title">Генеральные партнеры</p></li>
-            <li class="partners__list"><img src="./images/logo/fond-logo.png" class="partners__list_image"></li>
-            <li class="partners__list"><img src="./images//logo/mosbrew-logo.png" class="partners__list_image"></li>
-            <li class="partners__list"><img src="./images/logo/sbtg-logo.png" class="partners__list_image"></li>
-            <li class="partners__list"><img src="./images/logo/pogovorit-logo.png" class="partners__list_image"></li>
+            <li class="partners__list"><img src="./images/logo/fond-logo.svg" class="partners__list_image"></li>
+            <li class="partners__list"><img src="./images//logo/mosbrew-logo.svg" class="partners__list_image"></li>
+            <li class="partners__list"><img src="./images/logo/sbtg-logo.svg" class="partners__list_image"></li>
+            <li class="partners__list"><img src="./images/logo/pogovorit-logo.svg" class="partners__list_image"></li>
         </ul>
       </div>
   
@@ -302,18 +335,34 @@
   
         </ul>
       </nav>
-      <div class="footer__additional-info">
-        <p class="footer__copyright"></p>      
-        <a class="footer__privacy" href="#" target="blank"></a> <!--Политика конфиденциальности
-          либо ссылка на отдельную страницу, либо кнопка для открытия попапа-->      
+
+      <div class="footer__partners_mobile">
+
+        <ul class="partners_mobile">
+            <li class="partners__list_mobile"><img src="./images/logo/fond-logo.png" class="partners__list_image partners__list_image_fond">
+            <p class="partners__list_title">Генеральные партнеры</p></li>
+            <li class="partners__list"><img src="./images/mosbrew-mobile.png" class="partners__list_image partners__list_image_mosbrew"></li>
+            <li class="partners__list_mobile"><img src="./images/logo/sbtg-logo.png" class="partners__list_image partners__list_image_sbtg">
+            <p class="partners__list_title_mobile">Онлайн-трансляции</p></li>
+            <li class="partners__list"><img src="./images/pogovorit-mobile.png" class="partners__list_image partners__list_image_pogovorit"></li>
+        </ul>
       </div>
-      <div class="footer__credits">
-        <img src="./images/logo/footer-icon.svg" class="footer__credits_icon">
-        <p class="footer__credits_design">дизайн сайта — shishki.collective</p>
-        <p class="footer__credits_team">вёрстка и разработака — студенты Яндекс.Практикума</p>
-      </div>
-    </footer>
-  </div>
+    </div>
+
+      </ul>
+    </nav>
+    <div class="footer__info">
+        <div class="footer__additional-info">
+          <p class="footer__copyright">&copy; Любимовка, 2021</p>      
+          <a class="footer__privacy" href="#" target="blank">Политика конфиденциальности</a> 
+        </div>
+        <div class="footer__credits">
+          <img src="./images/logo/footer-icon.svg" class="footer__credits_icon">
+          <p class="footer__credits_design">дизайн сайта — shishki.collective</p>
+          <p class="footer__credits_team">вёрстка и разработака — студенты Яндекс.Практикума</p>
+        </div>
+    </div>
+  </footer>
   
  <!-- Перейти на template элементы при разробтке на js-->
   <!--<template id="audience-review-template">

@@ -7,5 +7,6 @@
 }
 
 .root {
-background-color: var(--grey-background);
+  margin: 0 auto;
+  max-width: 1440px;
 }

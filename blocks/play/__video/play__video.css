@@ -1,12 +1,13 @@
 .play__video {
-  display: block;
-  min-width: 100%;
-  min-height: 389px;
-  border: none;
+    display: block;
+    width: 691px;
+    height: 389px;
+    border: none;
 }
 
-@media screen and (min-width: 414px) {
-  .play__video {
-    max-height: 206px;
-  }
+@media screen and (max-width: 415px) {
+    .play__video {
+        height: 206px;
+    }
+    
 }
