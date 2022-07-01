@@ -1,0 +1,19 @@
+.partners__list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+}
+@media all and (min-width: 320px) and (max-width: 768px) {
+    .partners__list_mobile {
+        flex-direction: column;
+        margin: 0;
+        list-style-type: none;
+        padding: 0;
+    }
+    .partners__list {
+        margin-right: 25px;
+        padding: 0;
+        align-items: flex-start;
+    }
+}

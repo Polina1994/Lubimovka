@@ -1,7 +1,10 @@
 .share__photo {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   display: block;
-  width: 91%;
-  max-width: 1320px;
+  width: 100%;
+  height: auto;
+  min-height: 252px;
+  object-fit: cover;
+  transition: all 0.3s linear;
 }

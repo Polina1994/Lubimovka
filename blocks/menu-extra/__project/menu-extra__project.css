@@ -1,0 +1,12 @@
+.menu-extra__project {
+    list-style-type: none;
+    margin-left: 80px;
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 0;
+}
+@media all and (min-width: 320px) and (max-width: 768px) {
+    .menu-extra__project {
+        margin: 0;
+    }
+}

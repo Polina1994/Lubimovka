@@ -1,4 +1,19 @@
 .share {
   margin: 0 auto;
-  padding: 0;
+  padding: 0 0 180px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  min-width: 414px;
+  max-width: 1320px;
+  color: var(--coal);
+  transition: all 0.3s linear;
+}
+
+@media screen and (max-width: 768px) {
+  .share {
+    padding-bottom: 154px;
+  }
 }

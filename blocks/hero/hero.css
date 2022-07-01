@@ -1,3 +1,18 @@
 .hero {
-  
+  width: 100%;
+  margin: 0 auto 68px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Neue Machina', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 767px) {
+  .hero {
+    max-width: 767px;
+    margin: 0;
+    padding-bottom: 100px;
+    flex-direction: column;
+  }
 }

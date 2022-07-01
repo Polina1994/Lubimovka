@@ -1,0 +1,16 @@
+.hero__navigation {
+  margin-bottom: 25px;
+  padding-left: 30px;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .hero__navigation {
+    padding-left: 0;
+    width: auto;
+    width: min-content;
+    position: relative;
+    top: -25.11px;
+    left: 86px;/*20.5%*/
+  }
+}

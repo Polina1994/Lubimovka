@@ -1,0 +1,10 @@
+.hero__column {
+  width: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  .hero__column {
+    width: 100%;
+    margin: 0;
+  }
+}

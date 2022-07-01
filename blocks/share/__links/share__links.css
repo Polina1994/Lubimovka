@@ -1,0 +1,25 @@
+.share__links {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  margin-top: -15px;
+  margin-left: 6px;
+  gap: 8px;
+  z-index: 1;
+  display: inline-flex;
+  list-style: none;
+  font-family: 'Formular';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 14px;
+  transition: all 0.3s linear;
+}
+
+@media screen and (max-width: 768px) {
+  .share__links {
+    width: 100%;
+    padding: 8px 0 20px 0px;
+    margin: 0px;
+  }
+}

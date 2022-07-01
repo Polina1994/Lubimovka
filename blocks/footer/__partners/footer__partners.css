@@ -1,0 +1,19 @@
+.footer__partners {
+    margin-left: 223px;
+    margin-top: -93px;
+}
+.footer__partners_mobile {
+    display: none;
+}
+@media all and (min-width: 320px) and (max-width: 768px) {
+    .footer__partners {
+        display: none;
+    }
+    @media all and (min-width: 320px) and (max-width: 768px) {
+        .footer__partners_mobile {
+            display: inline-block;
+            padding: 0;
+            margin-top: 40px;
+        }
+    }
+}

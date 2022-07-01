@@ -1,0 +1,13 @@
+.play__video {
+    display: block;
+    width: 691px;
+    height: 389px;
+    border: none;
+}
+
+@media screen and (max-width: 415px) {
+    .play__video {
+        height: 206px;
+    }
+    
+}
