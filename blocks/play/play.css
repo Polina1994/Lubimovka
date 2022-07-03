@@ -1,7 +1,11 @@
 .play {
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 0;
+=======
+    grid-template-columns: repeat(2, 50%);
+>>>>>>> f83e0f3550cd15a8976d7c277a614c49987f16b2
 }
 
 @media screen and (max-width: 920px) {
