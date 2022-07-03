@@ -1,14 +1,7 @@
 .address {
-    margin-top: 20px;
+    margin-top: 3px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-left: 230px;
-}
-@media all and (min-width: 320px) and (max-width: 768px) {
-    .address {
-        margin-left: 14%;
-        margin-top: 30px;
-        padding: 0;
-    }
 }

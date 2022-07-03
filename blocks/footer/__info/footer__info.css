@@ -1,16 +1,8 @@
 .footer__info {
-    margin-bottom: 72px;
+    margin-bottom: 73px;
     margin-top: 49px;
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-}
-@media screen and (min-width:320px) and (max-width: 768px) {
-    .footer__info {
-        border-top: 1px solid black;
-        margin: 0;
-        padding: 0;
-        flex-direction: column;
-    }
 }
