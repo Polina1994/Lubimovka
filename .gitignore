@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-
-=======
 # OS generated files #
 ######################
 .DS_Store
@@ -66,4 +62,3 @@ Temporary Items
 *.log
 *.sql
 *.sqlite
->>>>>>> f83e0f3550cd15a8976d7c277a614c49987f16b2

@@ -2,14 +2,5 @@
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
-    margin-top: 16px;
-    width: 150px;
-}
-@media all and (min-width: 320px) and (max-width: 768px) {
-    .address__description {
-        font-size: 16px;
-        line-height: 22px;
-        width: 278px;
-        margin-top: 8px;
-    }
+    margin: 0;
 }
