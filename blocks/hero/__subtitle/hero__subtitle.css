@@ -1,7 +1,7 @@
 .hero__subtitle {
   margin: 0 0 min(31px + 181 * (100vw - 768px) / 672, 212px) 60px;
   padding: 0;
-  width: 65%;/*418px, 58%*/
+  width: 58.4%;/*418px, 58%*/  
   font-size: 20px;
   line-height: 24px;
   letter-spacing: -0.01em;
