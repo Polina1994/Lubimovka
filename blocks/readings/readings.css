@@ -1,15 +1,11 @@
 .readings {
   margin-bottom: 144px;
-}
-
-@media screen and (max-width: 920px) {
-  .readings {
-      align-self: center;
-  }
+  margin-left: calc(720 / 1440 * 100vw);
 }
 
 @media screen and (max-width: 425px) {
     .readings {
         margin-bottom: 100px;
+        margin-left: auto;
     }
 }

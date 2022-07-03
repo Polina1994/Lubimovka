@@ -1,12 +1,3 @@
-:root {
-    --grey-background: #ECEBE8;
-    --coal: #242424;
-    --white: #FFF;
-    --black: #000;
-    --green: #B7C09D;
-}
-
 .root {
-  margin: 0 auto;
-  max-width: 1440px;
+  
 }

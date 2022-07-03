@@ -1,17 +1,10 @@
 .share__text {
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 57px 0 0 0;
   font-family: 'Neue Machina';
   font-weight: 400;
   font-size: 40px;
   line-height: 40px;
-  letter-spacing: -0.01em;
+  max-width: 666px;
   text-align: left;
-  transition: all 0.3s linear;
-}
-
-@media screen and (max-width: 768px) {
-  .share__text {
-    width: 363px;
-  }
 }

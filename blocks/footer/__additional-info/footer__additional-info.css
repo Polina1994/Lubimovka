@@ -1,13 +1,3 @@
 .footer__additional-info {
-    display: flex;
-    flex-direction: row;
-    margin-left: 228px;
-    padding: 0;
-}
-@media screen and (min-width:320px) and (max-width: 768px) {
-    .footer__additional-info {
-        flex-direction: column;
-        margin-top: 32px;
-        margin-left: 7%;
-    }
+  
 }

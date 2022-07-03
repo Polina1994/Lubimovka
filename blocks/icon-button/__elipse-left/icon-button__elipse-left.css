@@ -1,8 +1,0 @@
-.icon-button__elipse-left{
-    background-image: url(../../../images/ui/slider-elips.svg);
-    height: 50px;
-    width: 25px;
-    transform: rotate(180deg);
-    opacity: 0;
-    transition: all .5s ease;
-}

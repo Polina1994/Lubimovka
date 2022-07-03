@@ -1,35 +1,5 @@
 .button_anim-right{
-    position: relative;
-    color: #242424;
-    fill: #242424;
-    transition: all .5s ease; 
-    z-index: 1;
-}
-.button_anim-right:hover{
-
-    color: #fff;
-    fill: #fff;
-}
-.button_anim-right::before{
-    content: '';
-    position: absolute;
-    z-index: -1;
-    right: 0;
-    bottom: 0;
-    width: 0;
-    height: 100%;
-    background-color: #242424;
-    transition: all .5s ease;    
-}
-.button_anim-right:hover:before{
-    content: '';
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-}
-.button_anim-right:active:before{
-    content: '';
-    transform: scale(1.1);
+    padding-left: 10px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
 }
