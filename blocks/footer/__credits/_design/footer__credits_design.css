@@ -9,3 +9,9 @@
     font-size: 14px;
     line-height: 17px;
 }
+@media all and (min-width: 320px) and (max-width: 768px) {
+    .footer__credits_design {
+        margin-left: 36px;
+        margin-top: -30px;
+    }
+}

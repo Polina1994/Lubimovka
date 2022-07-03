@@ -1,12 +1,13 @@
 .footer {
-    margin: 0;
+    margin-top: 38px;
     padding: 0;
     font-family: 'Formular';
     font-style: normal;
 }
-@media all and (min-width: 320px) {
+@media all and (min-width: 320px) and (max-width: 768px) {
     .footer {
-        display: flex;
-        flex-direction: column;
+        display: block;
+        grid-auto-flow: column;
+        max-width: 768px;
     }
 }
