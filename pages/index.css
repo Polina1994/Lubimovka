@@ -97,6 +97,7 @@
 @import url(../blocks/footer/__info/footer__info.css);
 @import url(../blocks/footer/__privacy/footer__privacy.css);
 @import url(../blocks/footer/__partners/footer__partners.css);
+@import url(../blocks/footer/__partners/_mobile/footer__partners_mobile.css);
 
 @import url(../blocks/logo-with-text/);
 

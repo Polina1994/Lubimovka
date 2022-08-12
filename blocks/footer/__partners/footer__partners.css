@@ -1,4 +1,12 @@
-.footer__partners {
-    display: flex;
-    flex-direction: row;
+.footer__partners {    
+    margin: 42px 0 21.64px 0;
+    padding-left: 32px;
+    box-sizing: border-box;    
+    display: flex;        
+}
+
+@media all and (min-width: 320px) and (max-width: 768px) {
+    .footer__partners {
+        display: none;
+    }    
 }
