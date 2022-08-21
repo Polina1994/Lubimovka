@@ -1,6 +1,6 @@
 .share {
   margin: 0 auto;
-  padding: 0 0 180px;
+  padding: 0 0 139px;
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -10,6 +10,7 @@
   max-width: 1320px;
   color: var(--coal);
   transition: all 0.3s linear;
+  outline:1px solid green;
 }
 
 @media screen and (max-width: 768px) {

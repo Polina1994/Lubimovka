@@ -82,11 +82,12 @@
 @import url(../blocks/share/__photo/share__photo.css);
 @import url(../blocks/share/__text-container/share__text-container.css);
 @import url(../blocks/share/__text/share__text.css);
-
 @import url(../blocks/share/__links/share__links.css);
 @import url(../blocks/share/__link/share__link.css);
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__logo-container/footer__logo-container.css);
+@import url(../blocks/footer/__partners/_mobile/footer__partners_mobile.css);
 @import url(../blocks/footer/__about/footer__about.css);
 @import url(../blocks/footer/__additional-info/footer__additional-info.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
@@ -96,10 +97,12 @@
 @import url(../blocks/footer/__credits/_icon/footer__credits_icon.css);
 @import url(../blocks/footer/__info/footer__info.css);
 @import url(../blocks/footer/__privacy/footer__privacy.css);
-@import url(../blocks/footer/__partners/footer__partners.css);
-@import url(../blocks/footer/__partners/_mobile/footer__partners_mobile.css);
 
 @import url(../blocks/logo-with-text/);
+@import url(../blocks/partners/partners.css);
+@import url(../blocks/partners/__list-title/partners__list-title.css);
+@import url(../blocks/partners/__list/partners__list.css);
+@import url(../blocks/partners/__logo/partners__logo.css);
 
 @import url(../blocks/partners/partners.css);
 @import url(../blocks/partners/__list/_image/partners__list_image.css);

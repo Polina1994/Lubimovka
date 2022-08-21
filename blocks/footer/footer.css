@@ -1,13 +1,17 @@
-.footer {   
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Formular';
-    font-style: normal;
+.footer {  
+  padding-bottom: 54px;
+  font-family: 'Formular';
+  font-style: normal;
+  display: grid;
+  grid-template-columns: 207px auto;
+  grid-template-rows: 144px min-content min-content;
+  outline: 1px solid red;
 }
+
 @media all and (min-width: 320px) and (max-width: 768px) {
-    .footer {
-        display: block;
-        grid-auto-flow: column;
-        max-width: 768px;
-    }
+  .footer {
+    display: block;
+    grid-auto-flow: column;
+    max-width: 768px;
+  }
 }
