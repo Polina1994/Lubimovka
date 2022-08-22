@@ -1,4 +1,5 @@
 .footer__info {
+    grid-area: 3/2;
     margin-bottom: 72px;
     margin-top: 49px;
     display: flex;

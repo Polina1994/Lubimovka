@@ -87,8 +87,23 @@
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__logo-container/footer__logo-container.css);
+
+@import url(../blocks/logo-with-text/);
+@import url(../blocks/partners/partners.css);
+@import url(../blocks/partners/__list-title/partners__list-title.css);
+@import url(../blocks/partners/__list/partners__list.css);
+@import url(../blocks/partners/__logo/partners__logo.css);
+
 @import url(../blocks/footer/__partners/_mobile/footer__partners_mobile.css);
-@import url(../blocks/footer/__about/footer__about.css);
+
+@import url(../blocks/footer/__nav-bar/footer__nav-bar.css);
+@import url(../blocks/address/address.css);
+@import url(../blocks/address/__title/address__title.css);
+@import url(../blocks/address/__description/address__description.css);
+
+@import url(../blocks/menu-extra/menu-extra.css);
+@import url(../blocks/menu-extra/__column/menu-extra__column.css);
+
 @import url(../blocks/footer/__additional-info/footer__additional-info.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__credits/footer__credits.css);
@@ -97,31 +112,6 @@
 @import url(../blocks/footer/__credits/_icon/footer__credits_icon.css);
 @import url(../blocks/footer/__info/footer__info.css);
 @import url(../blocks/footer/__privacy/footer__privacy.css);
-
-@import url(../blocks/logo-with-text/);
-@import url(../blocks/partners/partners.css);
-@import url(../blocks/partners/__list-title/partners__list-title.css);
-@import url(../blocks/partners/__list/partners__list.css);
-@import url(../blocks/partners/__logo/partners__logo.css);
-
-@import url(../blocks/partners/partners.css);
-@import url(../blocks/partners/__list/_image/partners__list_image.css);
-@import url(../blocks/partners/__list/partners__list.css);
-@import url(../blocks/partners/__list/_title/partners__list_title.css);
-
-
-@import url(../blocks/address/address.css);
-@import url(../blocks/address/__title/address__title.css);
-@import url(../blocks/address/__description/address__description.css);
-
-
-@import url(../blocks/menu-extra/menu-extra.css);
-@import url(../blocks/menu-extra/__project/menu-extra__project.css);
-@import url(../blocks/menu-extra/__links/menu-extra__links.css);
-@import url(../blocks/menu-extra/__about/menu-extra__about.css);
-@import url(../blocks/menu-extra/__text/menu-extra__text.css);
-
-
 
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/button-area.css);

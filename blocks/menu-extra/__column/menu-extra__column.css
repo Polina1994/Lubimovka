@@ -1,0 +1,8 @@
+.menu-extra__column {
+  margin-top: 0;    
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  list-style-type: none;
+}

@@ -1,7 +1,11 @@
 .address {
-    margin-top: 3px;
+    padding-top: 2px;
+    padding-left: 3px;
+    box-sizing: border-box;
+    width: 231px;
     display: flex;
     flex-direction: column;
+    gap: 19px;
     align-items: flex-start;
-    margin-left: 230px;
+    outline: 1px solid black;
 }

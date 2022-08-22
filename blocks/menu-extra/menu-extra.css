@@ -1,7 +1,13 @@
 .menu-extra {
-    display: flex;
-    margin-top: 7px;
-    justify-content: flex-end;
+    margin: 0;
+    padding: 5px 0 0 3px;
+    grid-column: 3;
+    display: grid;
+    grid-template-columns: 181px 175px 189px;
+    justify-content: flex-start;
+    align-items: flex-start;
     width: 100%;
-    margin-right: 95px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
 }

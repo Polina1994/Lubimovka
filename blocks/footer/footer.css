@@ -4,7 +4,7 @@
   font-style: normal;
   display: grid;
   grid-template-columns: 207px auto;
-  grid-template-rows: 144px min-content min-content;
+  grid-template-rows: 144px max-content min-content;
   outline: 1px solid red;
 }
 
