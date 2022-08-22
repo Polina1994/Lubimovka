@@ -1,0 +1,8 @@
+.menu-extra__link {
+  color: var(--coal);
+  text-decoration: none;
+}
+
+.menu-extra__link:hover {
+  text-decoration: underline;
+}

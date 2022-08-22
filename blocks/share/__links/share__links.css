@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
   position: relative;
-  margin-top: -15px;
-  margin-left: 6px;
+  margin-top: -1.1ex;
+  margin-left: 4px;
   gap: 8px;
   z-index: 1;
   display: inline-flex;
@@ -15,6 +15,7 @@
   line-height: 14px;
   transition: all 0.3s linear;
 }
+
 
 @media screen and (max-width: 768px) {
   .share__links {

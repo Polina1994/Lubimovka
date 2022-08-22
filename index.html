@@ -130,8 +130,18 @@
           <aside class="readings">
             <div class="readings__card">
               <h4 class="readings__title">С_училища</h4>
-              <button class="readings__button button__big button_anim-left">Смотреть читку<img src="./images/ui/arrow-right.svg" alt="" class="icon-button icon-button__type_up-right"></button>
-              <button class="readings__button button__big button_anim-left">Скачать пьесу<img src="./images/ui/arrow-right.svg" alt="" class="icon-button icon-button__type_down"></button>
+              <button class="button__big button_anim-diagonal">
+                СМОТРЕТЬ ЧИТКУ
+                <svg class="icon-button__arrow-diagonal" width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.5234 21L11.7986 20.2752L6 14.4766L6.70287 13.7737L12.0235 19.0944L12.0235 3.05176e-05H13.0235L13.0235 19.0503L18.2752 13.7986L19 14.5235L13.2263 20.2972L12.5234 21Z"/>
+                </svg>
+              </button>
+              <button class="button__big button_anim-down">
+                СКАЧАТЬ ПЬЕССУ
+                <svg class="icon-button__arrow-down" width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.5234 21L11.7986 20.2752L6 14.4766L6.70287 13.7737L12.0235 19.0944L12.0235 3.05176e-05H13.0235L13.0235 19.0503L18.2752 13.7986L19 14.5235L13.2263 20.2972L12.5234 21Z"/>
+                </svg>
+              </button>
             </div>
             <h3 class="readings__author">Андрей Иванов</h3>
             <p class="readings__info">Санкт-Петербург 2020</p>
@@ -163,10 +173,20 @@
               <div class="slider-navigation__dot"></div>
               <div class="slider-navigation__dot"></div>
             </div>
-            <div class="slider-navigation__buttons">
-              <button class="button__slider"></button>
-              <button class="button__slider"></button>
-          </div>
+            <div class="button__slider-control">
+              <button class="button__slider-left">
+                <svg class="icon-button__slider-left"  xmlns="http://www.w3.org/2000/svg">
+                  <path fill="none" d="M25 0.999997C11.7452 0.999999 0.999997 11.7452 0.999998 25C0.999999 38.2548 11.7452 49 25 49" stroke="#242424"/>
+                  <path d="M15 24.4766L15.7248 25.2014L21.5234 31L22.2263 30.2971L16.9056 24.9765L36 24.9765L36 23.9765L16.9498 23.9765L22.2014 18.7248L21.4766 18L15.7029 23.7737L15 24.4766Z"/>
+                </svg>
+              </button>
+              <button class="button__slider-right">
+                <svg class="icon-button__slider-right" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="none" d="M24.9996 1.00006C38.2545 1.00006 48.9996 11.7452 48.9996 25.0001C48.9996 38.2549 38.2545 49.0001 24.9996 49.0001" stroke="#242424"/>
+                  <path d="M35 24.4766L34.2752 25.2014L28.4766 31L27.7737 30.2971L33.0944 24.9765L14 24.9765L14 23.9765L33.0502 23.9765L27.7986 18.7248L28.5234 18L34.2971 23.7737L35 24.4766Z"/>
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
         <ul class="press-reviews__container">
@@ -208,10 +228,20 @@
               <div class="slider-navigation__dot"></div>
               <div class="slider-navigation__dot"></div>
             </div>
-            <div class="slider-navigation__buttons">
-              <button class="button__slider"></button>
-              <button class="button__slider"></button>
-          </div>
+            <div class="button__slider-control">
+              <button class="button__slider-left">
+                <svg class="icon-button__slider-left"  xmlns="http://www.w3.org/2000/svg">
+                  <path fill="none" d="M25 0.999997C11.7452 0.999999 0.999997 11.7452 0.999998 25C0.999999 38.2548 11.7452 49 25 49" stroke="#242424"/>
+                  <path d="M15 24.4766L15.7248 25.2014L21.5234 31L22.2263 30.2971L16.9056 24.9765L36 24.9765L36 23.9765L16.9498 23.9765L22.2014 18.7248L21.4766 18L15.7029 23.7737L15 24.4766Z"/>
+                </svg>
+              </button>
+              <button class="button__slider-right">
+                <svg class="icon-button__slider-right" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="none" d="M24.9996 1.00006C38.2545 1.00006 48.9996 11.7452 48.9996 25.0001C48.9996 38.2549 38.2545 49.0001 24.9996 49.0001" stroke="#242424"/>
+                  <path d="M35 24.4766L34.2752 25.2014L28.4766 31L27.7737 30.2971L33.0944 24.9765L14 24.9765L14 23.9765L33.0502 23.9765L27.7986 18.7248L28.5234 18L34.2971 23.7737L35 24.4766Z"/>
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
         <ul class="audience-reviews__container">
@@ -254,63 +284,91 @@
     </main>
   
     <footer class="footer">
-      <div class="footer__partners">
-        <img class="logo-with-text" src="./images/logo/footer-logo.svg" alt="логотип"><!--лого - блок, можно использовать в других местах-->
-  
-        <ul class="partners"> <!--список партнеров - блок, можно использовать в других местах-->
-            <li class="partners__list"><p class="partners__list_title">Генеральные партнеры</p></li>
-            <li class="partners__list"><img src="./images/logo/fond-logo.png" class="partners__list_image"></li>
-            <li class="partners__list"><img src="./images//logo/mosbrew-logo.png" class="partners__list_image"></li>
-            <li class="partners__list"><img src="./images/logo/sbtg-logo.png" class="partners__list_image"></li>
-            <li class="partners__list"><img src="./images/logo/pogovorit-logo.png" class="partners__list_image"></li>
-        </ul>
+      <div class="footer__logo-container">
+        <img class="logo-with-text" src="./images/logo/footer-logo.svg" alt="логотип"><!--лого - блок, можно использовать в других местах-->        
       </div>
-  
-      <div class="footer__about">
+      <div class="partners">
+        <h3 class="partners__list-title">Генеральные &nbsp; партнеры</h3>
+        <ul class="partners__list"> <!--список партнеров - блок, можно использовать в других местах-->            
+          <li>
+            <a class="parners__link" href="#">
+              <img src="./images/logo/fond.svg" class="partners__logo">
+            </a>            
+          </li>
+          <li>
+            <a class="parners__link" href="#">
+              <img src="./images//logo/mosbrew_b.svg" class="partners__logo">
+            </a>            
+          </li=>
+          <li>
+            <a class="parners__link" href="#">
+              <img src="./images/logo/sbtg.svg" class="partners__logo">
+            </a>            
+          </li>
+          <li>
+            <a class="parners__link" href="#">
+              <img src="./images/logo/apogovorit.svg" class="partners__logo">
+            </a>            
+          </li>
+        </ul>
+      </div>  
+
+      <div class="footer__nav-bar">
         
         <div class="address">
           <h2 class="address__title">Площадка «8/3»</h2>
-          <p class="address__description">Москва,<br> ул. Казакова, 8, стр. 3 Метро «Курская»</p>
+          <p class="address__description">Москва,<br/> ул. Казакова, 8, стр. 3<br> Метро «Курская»</p>
         </div><!--адрес - блок, можно использовать в других местах-->
   
         <nav class="menu-extra"><!--расширенное меню - блок, можно использовать в других местах-->
-          <ul class="menu-extra__links">
-              <li class="menu-extra__text">Любимовка</li>
-              <li class="menu-extra__text">Афиша</li>
-              <li class="menu-extra__text">Библиотека</li>
-              <li class="menu-extra__text">Блог</li>
-              <li class="menu-extra__text">Новости</li>
+          <ul class="menu-extra__column">
+              <li><a href="#" class="menu-extra__link">Любимовка</a></li>
+              <li><a href="#" class="menu-extra__link">Афиша</a></li>
+              <li><a href="#" class="menu-extra__link">Библиотека</a></li>
+              <li><a href="#" class="menu-extra__link">Блог</a></li>
+              <li><a href="#" class="menu-extra__link">Новости</a></li>
           </ul>
-          <ul class="menu-extra__about">
-              <li class="menu-extra__text">О фестивале</li>
-              <li class="menu-extra__text">Организаторы</li>
-              <li class="menu-extra__text">История</li>
-              <li class="menu-extra__text">Контакты</li>
-              <li class="menu-extra__text">Для прессы</li>
+          <ul class="menu-extra__column">
+              <li><a href="#" class="menu-extra__link">О фестивале</a></li>
+              <li><a href="#" class="menu-extra__link">Организаторы</a></li>
+              <li><a href="#" class="menu-extra__link">История</a></li>
+              <li><a href="#" class="menu-extra__link">Контакты</a></li>
+              <li><a href="#" class="menu-extra__link">Для прессы</a></li>
           </ul>
-          <ul class="menu-extra__project">
-              <li class="menu-extra__text">Все проекты</li>
-              <li class="menu-extra__text">Любимовка.Ещё</li>
-              <li class="menu-extra__text">Спектакли</li>
-              <li class="menu-extra__text">Сборник Любимовка.Пьесы</li>
-              <li class="menu-extra__text">Lark+Любимовка</li>
-              <li class="menu-extra__text">Практика постдраматурга</li>
-              <li class="menu-extra__text">Эхо Любимовки</li>
+          <ul class="menu-extra__column">
+              <li><a href="#" class="menu-extra__link">Все проекты</a></li>
+              <li><a href="#" class="menu-extra__link">Любимовка.Ещё</a></li>
+              <li><a href="#" class="menu-extra__link">Спектакли</a></li>
+              <li><a href="#" class="menu-extra__link">Сборник Любимовка.Пьесы</a></li>
+              <li><a href="#" class="menu-extra__link">Lark+Любимовка</a></li>
+              <li><a href="#" class="menu-extra__link">Практика постдраматурга</a></li>
+              <li><a href="#" class="menu-extra__link">Эхо Любимовки</a></li>
           </ul>
         </nav>
       </div>
-  
+      <!--
+      <div class="footer__partners_mobile">
+
+        <ul class="partners_mobile">
+            <li class="partners__list_mobile"><img src="./images/logo/fond-logo.png" class="partners__list_image partners__list_image_fond">
+            <p class="partners__list_title">Генеральные партнеры</p></li>
+            <li class="partners__list"><img src="./images/mosbrew-mobile.png" class="partners__list_image partners__list_image_mosbrew"></li>
+            <li class="partners__list_mobile"><img src="./images/logo/sbtg-logo.png" class="partners__list_image partners__list_image_sbtg">
+            <p class="partners__list_title_mobile">Онлайн-трансляции</p></li>
+            <li class="partners__list"><img src="./images/pogovorit-mobile.png" class="partners__list_image partners__list_image_pogovorit"></li>
         </ul>
-      </nav>
-      <div class="footer__additional-info">
-        <p class="footer__copyright"></p>      
-        <a class="footer__privacy" href="#" target="blank"></a> <!--Политика конфиденциальности
-          либо ссылка на отдельную страницу, либо кнопка для открытия попапа-->      
       </div>
-      <div class="footer__credits">
-        <img src="./images/logo/footer-icon.svg" class="footer__credits_icon">
-        <p class="footer__credits_design">дизайн сайта — shishki.collective</p>
-        <p class="footer__credits_team">вёрстка и разработака — студенты Яндекс.Практикума</p>
+       -->  
+      <div class="footer__final-points">
+        <div class="footer__legal-terms">
+          <p class="footer__copyright">&copy; Любимовка, 2022</p>      
+          <a class="footer__privacy" href="#" target="blank">Политика конфиденциальности</a> 
+        </div>
+        <div class="footer__credits">
+          <img src="./images/logo/footer-icon.svg" class="footer__credits_icon">
+          <p class="footer__credits_design">дизайн сайта — shishki.collective</p>
+          <p class="footer__credits_team">вёрстка и разработка — студенты Яндекс.Практикума</p>
+        </div>
       </div>
     </footer>
   </div>

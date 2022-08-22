@@ -1,0 +1,17 @@
+.footer__final-points {
+    grid-area: 3 / 2;
+    margin-top: 49px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, min-content);
+    column-gap: 369px;
+}
+
+@media screen and (min-width:320px) and (max-width: 768px) {
+    .footer__final-points {
+        border-top: 1px solid black;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+}

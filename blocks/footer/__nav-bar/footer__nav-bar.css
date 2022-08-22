@@ -1,0 +1,14 @@
+.footer__nav-bar {
+    grid-area: 2/2;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 231px 339px auto;
+}
+
+@media all and (min-width: 320px) and (max-width: 768px) {
+    .footer__nav-bar {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+}

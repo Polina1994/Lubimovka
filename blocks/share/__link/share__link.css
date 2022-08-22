@@ -8,4 +8,12 @@
   background-image: url(../../../images/ui/arrow-right.svg);
   background-position: left center;
   background-repeat: no-repeat;
+  transition: 0.5s ease;
+}
+
+
+.share__link:hover{
+  color: #fff;
+  background-color: var(--coal);
+  background-image: url(../../../images/ui/arrow-right_white.svg);
 }

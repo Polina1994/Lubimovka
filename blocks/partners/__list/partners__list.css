@@ -1,6 +1,9 @@
 .partners__list {
-    list-style-type: none;
-    display: flex;
-    /* margin-left: 31px; */
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 91px 119px 100px 123px;
+    justify-items: end;
     align-items: center;
+    list-style-type: none;
 }

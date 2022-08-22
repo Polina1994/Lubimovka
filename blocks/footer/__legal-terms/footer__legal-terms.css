@@ -1,0 +1,12 @@
+.footer__legal-terms {
+    width: 383px;
+    display: flex;
+}
+
+@media screen and (min-width:320px) and (max-width: 768px) {
+    .footer__legal-terms {
+        flex-direction: column;
+        margin-top: 32px;
+        margin-left: 7%;
+    }
+}
