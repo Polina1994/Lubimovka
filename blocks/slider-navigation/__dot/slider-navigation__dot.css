@@ -3,4 +3,5 @@
   height: 6px;
   border: 1px #242424 solid;
   border-radius: 50%;
+  box-sizing: border-box;
 }

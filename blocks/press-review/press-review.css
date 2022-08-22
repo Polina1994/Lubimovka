@@ -1,4 +1,5 @@
 .press-review {
   background-color: #fff;
   min-width: 718px;
+  transition: opacity ease 1s;
 }
