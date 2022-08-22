@@ -10,7 +10,6 @@
   max-width: 1320px;
   color: var(--coal);
   transition: all 0.3s linear;
-  outline:1px solid green;
 }
 
 @media screen and (max-width: 768px) {

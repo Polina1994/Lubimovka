@@ -1,9 +1,8 @@
 .footer__logo-container {
-  margin: 47px 0 21.64px 32px;  
+  margin: 47px 0 21.64px 32px;
   width: 93px;
   height: 80.36px;
   display: flex;
-  outline: 1px solid blue;
 }
 
 @media all and (min-width: 320px) and (max-width: 768px) {
