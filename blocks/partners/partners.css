@@ -1,7 +1,8 @@
 .partners {
     padding-top: 53px;
-    box-sizing: border-box;
-    display: flex;
-    align-items: flex-start;
+    box-sizing: border-box;   
+    display: grid;
+    grid-template-columns: 146px auto;    
+    align-items: start;
     outline: 1px solid brown;
 }
